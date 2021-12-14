@@ -1,0 +1,23 @@
+.site-footer .footer-col > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.site-footer .footer-col > a:hover {
+  color: #f00;
+  text-decoration: underline;
+}
+
+#bg-dark {
+  background-color: #333;
+  color: #ccc;
+}
+
+.site-footer .footer-col {
+  padding: 10px;
+  margin: 10px;
+}
+
+.site-footer .footer-col h3 {
+  color: #fff;
+}

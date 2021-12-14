@@ -1,0 +1,38 @@
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import './style.css';
+
+export const Footer = () => (
+  <footer className="site-footer" id="bg-dark">
+    <Container>
+      <Row>
+        <Col
+          md={8}
+          className="footer-col"
+        >
+          <h3 className="footer-heading1 mb-1">Contact</h3>
+          Department of CSE
+          {' '}
+          <br />
+          National Institute of Technology
+          <br />
+          Tiruchirappalli — 620 015
+          <br />
+          {' '}
+          Tamil Nadu, India.
+          <br />
+          E-mail ID:
+          {' '}
+          <a href="mailto:clip2022.nitt@gmail.com">icacni2022.nitt@gmail.com</a>
+          <br />
+          Contact Nos.:
+          {' '}
+          <a href="tel:+91999999999">999999999</a>
+        </Col>
+        <Col
+          md={4}
+        />
+      </Row>
+    </Container>
+  </footer>
+);
