@@ -1,0 +1,68 @@
+.navbar,
+.header {
+  width: 100%;
+  background-color: #012549 !important;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: #fff !important;
+}
+
+.navbar {
+  font-family: Montserrat, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 10px;
+
+  /* justify-content: space-between; */
+}
+
+.header {
+  display: flex;
+  font-family: Montserrat, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  border-bottom: 1px solid rgba(255 255 255 / 10%);
+}
+
+.colorWhite {
+  color: #fff !important;
+}
+
+.brand {
+  width: 100%;
+  display: flex;
+}
+
+.brand > img {
+  max-height: 100px;
+}
+
+.xsTopNavElems {
+  display: none !important;
+}
+
+.NavElements {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar {
+    display: none !important;
+  }
+
+  .xsTopNavElems {
+    display: flex !important;
+  }
+
+  .brand {
+    width: max-content;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .nittLogo {
+    content: url("https://www.nitt.edu/home/nittt-mob-latest.png");
+  }
+}
