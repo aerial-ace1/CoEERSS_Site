@@ -1,0 +1,9 @@
+.card {
+  max-height: 80%;
+  max-width: 80%;
+  border-style: solid;
+  border-width: 0.5em;
+  border-color: burlywood;
+  border-radius: 1em;
+  background-color: bisque;
+}
