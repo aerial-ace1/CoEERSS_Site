@@ -76,7 +76,7 @@ const TopNavbar = () => {
             id="responsive-navbar-nav"
           >
             <Nav className="justify-content-end">
-              <Nav.Link className={styles.colorWhite} onClick={() => history.push('/')}>
+              <Nav.Link className={styles.navLinks} onClick={() => history.push('/')}>
                 HOME
               </Nav.Link>
               <Nav.Link className={styles.navLinks} onClick={() => history.push('/conference/keynotelectures')}>
