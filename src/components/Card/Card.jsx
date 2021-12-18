@@ -7,7 +7,7 @@ import './style.css';
 export const Card = ({
   align, src, title, content
 }) => (
-  <div className="card">
+  <div className="card-div">
     <Container fluid>
       {
         align === 0

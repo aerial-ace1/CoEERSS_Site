@@ -13,10 +13,10 @@ const Left = ({ src, title, content }) => (
     </Row>
     <Row>
 
-      <Col>
+      <Col sm>
         <img className="card-img" src={src} alt="professor" />
       </Col>
-      <Col>{content}</Col>
+      <Col sm>{content}</Col>
     </Row>
 
   </>

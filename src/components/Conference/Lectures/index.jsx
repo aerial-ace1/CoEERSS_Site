@@ -17,11 +17,11 @@ const Content = (
 
 export const Lectures = () => (
   <>
-    <h1>Lectures</h1>
-    <Row className="m-5">
+    <h1 className="mb-5">Lectures</h1>
+    <Row className="mb-5">
       <Card align={0} src="https://sites.google.com/site/icacni2019/_/rsrc/1569300973786/AKRay.jpg?height=200&width=170" title="Recent Advancement in Machine Learning" content={Content} />
     </Row>
-    <Row className="m-5">
+    <Row className="mb-5">
       <Card align={1} src="https://sites.google.com/site/icacni2019/_/rsrc/1569300973786/AKRay.jpg?height=200&width=170" title="Recent Advancement in Machine Learning" content={Content} />
     </Row>
   </>

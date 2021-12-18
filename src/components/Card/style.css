@@ -1,9 +1,7 @@
-.card {
-  max-height: 80%;
-  max-width: 80%;
+.card-div {
   border-style: solid;
   border-width: 0.5em;
-  border-color: burlywood;
+  border-color: #ddd;
   border-radius: 1em;
-  background-color: bisque;
+  background-color: #efefee;
 }
