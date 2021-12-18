@@ -1,7 +1,9 @@
 import React from 'react';
 import { Route, useRouteMatch } from 'react-router-dom';
 import PageContainer from '../../components/PageContainer';
-// import styles from './style.module.css';
+import { Award } from '../../components/REO/Award';
+import { Call } from '../../components/REO/Call';
+import { Guidelines } from '../../components/REO/Guidelines';
 
 const RewsAndOrgsPage = () => {
   const { path, url } = useRouteMatch();
@@ -24,22 +26,22 @@ const RewsAndOrgsPage = () => {
     {
       name: 'REVIEWER GUIDELINES',
       path: `${path}`,
-      content: <div>REVIEWER GUIDELINES</div>
+      content: <Guidelines />
     },
     {
       name: 'REVIEWER GUIDELINES',
       path: `${path}/reviewerguidelines`,
-      content: <div>REVIEWER GUIDELINES</div>
+      content: <Guidelines />
     },
     {
       name: 'CALL FOR SPECIAL SESSIONS',
       path: `${path}/callforspecialsession`,
-      content: <div>CALL FOR SPECIAL SESSIONS</div>
+      content: <Call />
     },
     {
       name: 'OUTSTANDING REVIEWER AWARD',
       path: `${path}/outsrevieweaward`,
-      content: <div>OUTSTANDING REVIEWER AWARD</div>
+      content: <Award />
     }
   ].map((link) => (
     <Route key={link.path} exact path={link.path}>

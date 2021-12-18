@@ -3,7 +3,7 @@ import { Card, ListGroup } from 'react-bootstrap';
 
 export const Call = () => (
   <div>
-    <p className="mt-3">
+    <p>
       The ICACNI core committee invites proposals from institutes for co-organizing the 10th
       conference in 2020. The preferred conference date is during 2nd or 3rd week of March 2020.
       Other nearby dates can be discussed. The committee expects the co-organizing institution to
