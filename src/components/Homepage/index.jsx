@@ -48,7 +48,7 @@ export const Homepage = () => {
         </div>
         <div className={styles.container}>
           <Switch>
-            <Route exact path="/home">
+            <Route exact path="/">
               <MainPage />
             </Route>
             {routes.map((route) => (
@@ -59,7 +59,9 @@ export const Homepage = () => {
           </Switch>
         </div>
       </Router>
-      <Footer />
+      <div className={styles.footer}>
+        <Footer />
+      </div>
     </div>
   );
 };

@@ -47,6 +47,20 @@
   align-items: center;
 }
 
+.title {
+  margin: auto;
+}
+
+.navLinks {
+  color: #fff !important;
+  padding-bottom: 5px;
+}
+
+.navLinks:hover {
+  margin-bottom: -2px;
+  border-bottom: 2px solid rgb(255 255 255 / 54.8%);
+}
+
 @media only screen and (max-width: 992px) {
   .navbar {
     display: none !important;
@@ -58,11 +72,16 @@
 
   .brand {
     width: max-content;
+    flex-direction: column;
+  }
+
+  .title {
+    margin: 0;
   }
 }
 
-@media only screen and (max-width: 1200px) {
-  .nittLogo {
-    content: url("https://www.nitt.edu/home/nittt-mob-latest.png");
+@media only screen and (max-width: 500px) {
+  .brand > img {
+    max-height: 75px;
   }
 }

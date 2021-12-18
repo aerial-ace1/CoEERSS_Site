@@ -23,6 +23,11 @@ const RewsAndOrgsPage = () => {
   const Content = [
     {
       name: 'REVIEWER GUIDELINES',
+      path: `${path}`,
+      content: <div>REVIEWER GUIDELINES</div>
+    },
+    {
+      name: 'REVIEWER GUIDELINES',
       path: `${path}/reviewerguidelines`,
       content: <div>REVIEWER GUIDELINES</div>
     },
@@ -37,11 +42,11 @@ const RewsAndOrgsPage = () => {
       content: <div>OUTSTANDING REVIEWER AWARD</div>
     }
   ].map((link) => (
-    <Route key={link.path} path={link.path}>
+    <Route key={link.path} exact path={link.path}>
       {link.content}
     </Route>
   ));
-  return <PageContainer sidebarLinks={sidebarLinks} Content={Content} />;
+  return <PageContainer title="FOR REVIWERS AND SESSION ORGANIZERS" sidebarLinks={sidebarLinks} Content={Content} />;
 };
 
 export default RewsAndOrgsPage;

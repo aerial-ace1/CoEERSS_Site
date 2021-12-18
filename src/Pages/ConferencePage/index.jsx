@@ -22,6 +22,11 @@ const ConferencePage = () => {
   const Content = [
     {
       name: 'KEYNOTE LECTURES',
+      path: `${path}`,
+      content: <div>KEYNOTE LECTURES</div>
+    },
+    {
+      name: 'KEYNOTE LECTURES',
       path: `${path}/keynotelectures`,
       content: <div>KEYNOTE LECTURES</div>
     },
@@ -36,11 +41,11 @@ const ConferencePage = () => {
       content: <div>CALL FOR 8TH ICANI 2020</div>
     }
   ].map((link) => (
-    <Route key={link.path} path={link.path}>
+    <Route key={link.path} exact path={link.path}>
       {link.content}
     </Route>
   ));
-  return <PageContainer sidebarLinks={sidebarLinks} Content={Content} />;
+  return <PageContainer title="CONFERENCE" sidebarLinks={sidebarLinks} Content={Content} />;
 };
 
 export default ConferencePage;

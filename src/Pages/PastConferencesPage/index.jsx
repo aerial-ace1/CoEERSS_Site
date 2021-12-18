@@ -35,6 +35,11 @@ const PastConferencePage = () => {
   const Content = [
     {
       name: 'ICANI2019',
+      path: `${path}`,
+      content: <div>ICANI2018</div>
+    },
+    {
+      name: 'ICANI2019',
       path: `${path}/icani2019`,
       content: <div>ICANI2018</div>
     },
@@ -64,11 +69,11 @@ const PastConferencePage = () => {
       content: <div>ICANI2014</div>
     }
   ].map((link) => (
-    <Route key={link.path} path={link.path}>
+    <Route key={link.path} exact path={link.path}>
       {link.content}
     </Route>
   ));
-  return <PageContainer sidebarLinks={sidebarLinks} Content={Content} />;
+  return <PageContainer title="PAST CONFERENCE" sidebarLinks={sidebarLinks} Content={Content} />;
 };
 
 export default PastConferencePage;

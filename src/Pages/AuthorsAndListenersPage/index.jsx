@@ -35,6 +35,11 @@ const AuthorsAndListenersPage = () => {
   const Content = [
     {
       name: 'PROGRAMME SCHEDULE',
+      path: `${path}`,
+      content: <div>PROGRAMME SCHEDULE</div>
+    },
+    {
+      name: 'PROGRAMME SCHEDULE',
       path: `${path}/schedule`,
       content: <div>PROGRAMME SCHEDULE</div>
     },
@@ -64,11 +69,11 @@ const AuthorsAndListenersPage = () => {
       content: <div>AUTHOR GUIDELINES</div>
     }
   ].map((link) => (
-    <Route key={link.path} path={link.path}>
+    <Route key={link.path} exact path={link.path}>
       {link.content}
     </Route>
   ));
-  return <PageContainer sidebarLinks={sidebarLinks} Content={Content} />;
+  return <PageContainer title="FOR AUTHORS AND LISTENERS" sidebarLinks={sidebarLinks} Content={Content} />;
 };
 
 export default AuthorsAndListenersPage;

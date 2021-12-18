@@ -1,8 +1,37 @@
 .sidebar {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 60%;
+  padding: 10%;
 }
 
-/* .acitiveTab */
+.tab {
+  padding-left: 1rem;
+  width: 90%;
+  min-height: 10%;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-bottom: 1px solid rgba(0 0 0 / 20%);
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 5px 5px 0 0;
+}
+
+.tab:hover {
+  color: unset;
+  background: rgba(0 0 0 / 10%);
+}
+
+.activeTab {
+  border-radius: 0 5px 5px 0;
+  background: rgba(0 0 0 / 10%);
+  border-left: 5px solid #000;
+}
+
+.title {
+  align-self: flex-start;
+}

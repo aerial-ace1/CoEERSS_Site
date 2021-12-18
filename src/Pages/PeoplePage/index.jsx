@@ -3,7 +3,7 @@ import { Route, useRouteMatch } from 'react-router-dom';
 import PageContainer from '../../components/PageContainer';
 // import styles from './style.module.css';
 
-const RewsAndOrgsPage = () => {
+const PeoplePage = () => {
   const { path, url } = useRouteMatch();
   const sidebarLinks = [
     {
@@ -19,6 +19,11 @@ const RewsAndOrgsPage = () => {
   const Content = [
     {
       name: 'ADVISORY BOARD',
+      path: `${path}`,
+      content: <div>ADVISORY BOARD</div>
+    },
+    {
+      name: 'ADVISORY BOARD',
       path: `${path}/advisoryboard`,
       content: <div>ADVISORY BOARD</div>
     },
@@ -28,11 +33,11 @@ const RewsAndOrgsPage = () => {
       content: <div>COMMITTEE</div>
     }
   ].map((link) => (
-    <Route key={link.path} path={link.path}>
+    <Route key={link.path} exact path={link.path}>
       {link.content}
     </Route>
   ));
-  return <PageContainer sidebarLinks={sidebarLinks} Content={Content} />;
+  return <PageContainer title="PEOPLE" sidebarLinks={sidebarLinks} Content={Content} />;
 };
 
-export default RewsAndOrgsPage;
+export default PeoplePage;
