@@ -4,13 +4,13 @@
 }
 
 .site-footer .footer-col > a:hover {
-  color: #f00;
+  color: #00f;
   text-decoration: underline;
 }
 
 #bg-dark {
-  background-color: #333;
-  color: #ccc;
+  background-color: #962b07;
+  color: #fff;
 }
 
 .site-footer .footer-col {

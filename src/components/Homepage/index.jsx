@@ -7,8 +7,8 @@ import {
   AuthorsAndListenersPage,
   ConferencePage,
   RewsAndOrgsPage,
-  PeoplePage,
-  PastConferencesPage
+  PeoplePage
+  // PastConferencesPage
 } from '../../Pages';
 import { Footer } from '../Footer/Footer';
 
@@ -33,12 +33,12 @@ export const Homepage = () => {
       name: 'PEOPLE',
       url: '/people',
       getPage: () => <PeoplePage />
-    },
-    {
-      name: 'PAST CONFERENCES',
-      url: '/pastconferences',
-      getPage: () => <PastConferencesPage />
     }
+    // {
+    //   name: 'PAST CONFERENCES',
+    //   url: '/pastconferences',
+    //   getPage: () => <PastConferencesPage />
+    // }
   ];
   return (
     <div className={styles.homePage}>

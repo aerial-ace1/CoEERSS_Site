@@ -8,6 +8,10 @@ import ContentContainer from '../ContentContainer';
 const PageContainer = ({ title, sidebarLinks, Content }) => {
   const history = useHistory();
   const options = sidebarLinks.map((link) => ({ value: link.to, label: link.name }));
+  const [value, setValue] = React.useState({
+    value: sidebarLinks[0].to,
+    label: sidebarLinks[0].name
+  });
   return (
     <Router>
       <div className={styles.pageContainer}>
@@ -17,8 +21,9 @@ const PageContainer = ({ title, sidebarLinks, Content }) => {
         <h5 className={styles.title}>{title}</h5>
         <div className={styles.dropDownContainer}>
           <Select
-            value={{ value: sidebarLinks[0].to, label: sidebarLinks[0].name }}
+            value={value}
             onChange={(selectedValue) => {
+              setValue(selectedValue);
               history.push(selectedValue.value);
             }}
             options={options}

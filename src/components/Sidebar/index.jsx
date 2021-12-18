@@ -7,7 +7,6 @@ const Sidebar = ({ title, sidebarLinks }) => {
   return (
     <div className={styles.sidebar}>
       <h5 className={styles.title}>{title}</h5>
-      <br />
       {sidebarLinks.map((sidebarLink) => (
         <NavLink
           className={styles.tab}

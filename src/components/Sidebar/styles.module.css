@@ -2,14 +2,14 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 60%;
-  padding: 10%;
+  height: fit-content;
+  padding: 20px;
 }
 
 .tab {
   padding-left: 1rem;
   width: 90%;
-  min-height: 10%;
+  min-height: 50px;
   padding-bottom: 5px;
   padding-top: 5px;
   border-bottom: 1px solid rgba(0 0 0 / 20%);
@@ -34,4 +34,5 @@
 
 .title {
   align-self: flex-start;
+  margin-bottom: 20px;
 }
