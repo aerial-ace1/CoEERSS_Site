@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route, useRouteMatch } from 'react-router-dom';
+import { ImportantDates } from '../../components/ImportantDates/ImportantDates';
 import PageContainer from '../../components/PageContainer';
 // import styles from './style.module.css';
 
@@ -56,7 +57,13 @@ const AuthorsAndListenersPage = () => {
     {
       name: 'IMPORTANT DATES',
       path: `${path}/importantdates`,
-      content: <div>IMPORTANT DATES</div>
+      content:
+      (
+        <>
+          <h1>Important Dates</h1>
+          <ImportantDates />
+        </>
+      )
     },
     {
       name: 'PUBLICATION',

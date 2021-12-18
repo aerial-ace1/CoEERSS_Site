@@ -1,12 +1,13 @@
 .card-img {
-  border-radius: 50%;
+  border-radius: 50% !important;
   margin: auto;
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 100% !important;
+  max-height: 100% !important;
   float: left;
   padding: 1em;
 }
 
 .card-title {
   text-align: center;
+  padding: 10px;
 }

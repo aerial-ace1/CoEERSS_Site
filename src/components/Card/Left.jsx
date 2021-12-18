@@ -7,9 +7,9 @@ import './left.css';
 const Left = ({ src, title, content }) => (
   <>
     <Row>
-      <h1>
+      <h2>
         <Col className="card-title">{title}</Col>
-      </h1>
+      </h2>
     </Row>
     <Row>
 

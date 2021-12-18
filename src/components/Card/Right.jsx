@@ -7,9 +7,9 @@ import './right.css';
 const Right = ({ src, title, content }) => (
   <>
     <Row>
-      <h1>
+      <h2>
         <Col className="card-title">{title}</Col>
-      </h1>
+      </h2>
     </Row>
     <Row>
       <Col>{content}</Col>

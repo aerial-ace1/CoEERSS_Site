@@ -1,0 +1,28 @@
+.main-page {
+  width: 100%;
+}
+
+.main-page > .carousel {
+  height: 40vh;
+}
+
+.main-page .car-img {
+  height: 40vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.main-page .content {
+  font-size: 1rem;
+  margin-top: 10px;
+  text-align: justify;
+  font-family: Montserrat, Arial, sans-serif;
+}
+
+.main-page .image {
+  margin: 20px;
+}
+
+.main-page .image-container {
+  text-align: center;
+}

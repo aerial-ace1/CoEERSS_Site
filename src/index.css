@@ -25,3 +25,42 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
   background-color: #662208;
 }
+
+h1 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: #080808;
+  transition: all 0.4s ease 0s;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  line-height: 1;
+}
+
+h1::before {
+  width: 28px;
+  height: 5px;
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  left: 50%;
+  margin-left: -14px;
+  background-color: #962b07;
+}
+
+h1::after {
+  width: 100px;
+  height: 1px;
+  display: block;
+  content: "";
+  position: relative;
+  margin-top: 25px;
+  left: 50%;
+  margin-left: -50px;
+  background-color: #962b07;
+}

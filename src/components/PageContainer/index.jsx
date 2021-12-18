@@ -14,23 +14,25 @@ const PageContainer = ({ title, sidebarLinks, Content }) => {
   });
   return (
     <Router>
-      <div className={styles.pageContainer}>
-        <div className={styles.sideBarContainer}>
-          <Sidebar title={title} sidebarLinks={sidebarLinks} />
-        </div>
-        <h5 className={styles.title}>{title}</h5>
-        <div className={styles.dropDownContainer}>
-          <Select
-            value={value}
-            onChange={(selectedValue) => {
-              setValue(selectedValue);
-              history.push(selectedValue.value);
-            }}
-            options={options}
-          />
-        </div>
-        <div className={styles.contentContainer}>
-          <ContentContainer Content={Content} />
+      <div className="container">
+        <div className={styles.pageContainer}>
+          <div className={styles.sideBarContainer}>
+            <Sidebar title={title} sidebarLinks={sidebarLinks} />
+          </div>
+          <div className={styles.dropDownContainer}>
+            <Select
+              value={value}
+              onChange={(selectedValue) => {
+                console.log(selectedValue.value);
+                setValue(selectedValue);
+                history.push(selectedValue.value);
+              }}
+              options={options}
+            />
+          </div>
+          <div className={styles.contentContainer}>
+            <ContentContainer Content={Content} />
+          </div>
         </div>
       </div>
     </Router>

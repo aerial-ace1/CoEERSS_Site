@@ -46,18 +46,18 @@ export const Homepage = () => {
         <div className={styles.topNavBarContainer}>
           <TopNavbar />
         </div>
-        <div className={styles.container}>
-          <Switch>
-            <Route exact path="/">
-              <MainPage />
+
+        <Switch>
+          <Route exact path="/">
+            <MainPage />
+          </Route>
+          {routes.map((route) => (
+            <Route key={route.url} path={route.url}>
+              {route.getPage()}
             </Route>
-            {routes.map((route) => (
-              <Route key={route.url} path={route.url}>
-                {route.getPage()}
-              </Route>
-            ))}
-          </Switch>
-        </div>
+          ))}
+        </Switch>
+
       </Router>
       <div className={styles.footer}>
         <Footer />
