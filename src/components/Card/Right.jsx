@@ -12,8 +12,8 @@ const Right = ({ src, title, content }) => (
       </h2>
     </Row>
     <Row>
-      <Col xs>{content}</Col>
-      <Col xs>
+      <Col sm>{content}</Col>
+      <Col sm>
         <img className="card-img" src={src} alt="professor" />
       </Col>
 
