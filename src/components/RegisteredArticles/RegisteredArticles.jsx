@@ -3,10 +3,10 @@ import { Table } from 'react-bootstrap';
 
 export const RegisteredArticles = () => (
   <div>
-    <h2>List of Registered Articles in ICACNI 2019</h2>
+    <h1>List of Registered Articles in ICACNI 2019</h1>
     <h4>Regular session 1.2</h4>
     <h4>20 Dec 2019 @ 14:30 hrs - 16:00 hrs</h4>
-    <Table striped bordered responsive>
+    <Table striped bordered responsive className="mb-5">
       <tr>
         <th>Article ID</th>
         <th>Article Details</th>
@@ -88,7 +88,7 @@ export const RegisteredArticles = () => (
 
     <h4>Regular session 2.1</h4>
     <h4>21 Dec 2019 @ 11:15 hrs - 13:00 hrs</h4>
-    <Table striped bordered responsive>
+    <Table striped bordered responsive className="mb-5">
       <tr>
         <th>Article ID</th>
         <th>Article Details</th>
@@ -159,7 +159,7 @@ export const RegisteredArticles = () => (
 
     <h4>Regular session 2.2</h4>
     <h4>21 Dec 2019 @ 14:00 hrs - 15:00 hrs</h4>
-    <Table striped bordered responsive>
+    <Table striped bordered responsive className="mb-5">
       <tr>
         <th>Article ID</th>
         <th>Article Details</th>
@@ -217,7 +217,7 @@ export const RegisteredArticles = () => (
 
     <h4>Regular session 2.3</h4>
     <h4>21 Dec 2019 @ 15:30 hrs - 16:30 hrs</h4>
-    <Table striped bordered responsive>
+    <Table striped bordered responsive className="mb-5">
       <tr>
         <th>Article ID</th>
         <th>Article Details</th>

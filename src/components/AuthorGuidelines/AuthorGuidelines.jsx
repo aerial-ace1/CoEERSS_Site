@@ -112,7 +112,7 @@ export const AuthorGuidelines = () => (
         <br />
       </li>
     </ol>
-    <h1>Submitting for Review</h1>
+    <h1 className="mt-5">Submitting for Review</h1>
     <ol type="a">
       <li>
         Follow the link
@@ -157,7 +157,7 @@ export const AuthorGuidelines = () => (
         done on a submission through Easychair.
       </b>
     </p>
-    <h1>After Acceptance</h1>
+    <h1 className="mt-5">After Acceptance</h1>
     <ol type="a">
       <li>
         <em>
@@ -242,7 +242,7 @@ export const AuthorGuidelines = () => (
         delay or misplacement or failure in receiving the documents by the deadlines.
       </li>
     </ol>
-    <h1>Presentation Preparation</h1>
+    <h1 className="mt-5">Presentation Preparation</h1>
     <p>
       Electronic presentation facility will be available
       and presentation time is limited to 10 minutes including the question and answer session.
@@ -270,7 +270,7 @@ export const AuthorGuidelines = () => (
       Recommendation for extending works for special issues will be on the basis of the value
       of the work as well as the presentation.
     </p>
-    <h1>Physical/Online Presentation</h1>
+    <h1 className="mt-5">Physical/Online Presentation</h1>
     <p>
       Authors presenting physically can move to the session in which their presentations
       are scheduled and can pre-load their presentations on the
