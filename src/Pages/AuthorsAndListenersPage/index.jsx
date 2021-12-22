@@ -1,6 +1,8 @@
 import React from 'react';
 import { Route, useRouteMatch } from 'react-router-dom';
 import { ImportantDates } from '../../components/ImportantDates/ImportantDates';
+import { RegisteredArticles } from '../../components/RegisteredArticles/RegisteredArticles';
+import { AuthorGuidelines } from '../../components/AuthorGuidelines/AuthorGuidelines';
 import PageContainer from '../../components/PageContainer';
 import Publication from '../../components/Publication';
 import CallForPapers from '../../components/CallForPapers';
@@ -48,7 +50,7 @@ const AuthorsAndListenersPage = () => {
     {
       name: 'REGISTERED ARTICLES',
       path: `${path}/articles`,
-      content: <div>REGISTERED ARTICLES</div>
+      content: <RegisteredArticles />
     },
     {
       name: 'CALL FOR PAPERS',
@@ -79,7 +81,7 @@ const AuthorsAndListenersPage = () => {
     {
       name: 'AUTHOR GUIDELINES',
       path: `${path}/authorguidelines`,
-      content: <div>AUTHOR GUIDELINES</div>
+      content: <AuthorGuidelines />
     }
   ].map((link) => (
     <Route key={link.path} exact path={link.path}>
