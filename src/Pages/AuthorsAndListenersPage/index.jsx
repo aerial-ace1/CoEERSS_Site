@@ -1,8 +1,11 @@
 import React from 'react';
 import { Route, useRouteMatch } from 'react-router-dom';
 import { ImportantDates } from '../../components/ImportantDates/ImportantDates';
+import { RegisteredArticles } from '../../components/RegisteredArticles/RegisteredArticles';
+import { AuthorGuidelines } from '../../components/AuthorGuidelines/AuthorGuidelines';
 import PageContainer from '../../components/PageContainer';
-// import styles from './style.module.css';
+import Publication from '../../components/Publication';
+import CallForPapers from '../../components/CallForPapers';
 
 const AuthorsAndListenersPage = () => {
   const { path, url } = useRouteMatch();
@@ -47,12 +50,17 @@ const AuthorsAndListenersPage = () => {
     {
       name: 'REGISTERED ARTICLES',
       path: `${path}/articles`,
-      content: <div>REGISTERED ARTICLES</div>
+      content: <RegisteredArticles />
     },
     {
       name: 'CALL FOR PAPERS',
       path: `${path}/callforpapers`,
-      content: <div>CALL FOR PAPERS</div>
+      content: (
+        <>
+          <h1>CALL FOR PAPERS</h1>
+          <CallForPapers />
+        </>
+      )
     },
     {
       name: 'IMPORTANT DATES',
@@ -68,12 +76,12 @@ const AuthorsAndListenersPage = () => {
     {
       name: 'PUBLICATION',
       path: `${path}/publication`,
-      content: <div>PUBLICATION</div>
+      content: <Publication />
     },
     {
       name: 'AUTHOR GUIDELINES',
       path: `${path}/authorguidelines`,
-      content: <div>AUTHOR GUIDELINES</div>
+      content: <AuthorGuidelines />
     }
   ].map((link) => (
     <Route key={link.path} exact path={link.path}>
