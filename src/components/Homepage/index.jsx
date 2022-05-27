@@ -42,7 +42,7 @@ export const Homepage = () => {
   ];
   return (
     <div className={styles.homePage}>
-      <Router>
+      <Router basename="/ISERDM-2023">
         <div className={styles.topNavBarContainer}>
           <TopNavbar />
         </div>

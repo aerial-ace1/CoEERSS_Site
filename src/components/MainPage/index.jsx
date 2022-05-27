@@ -110,7 +110,7 @@ const MainPage = () => (
       </h1>
       <div className="image-container">
         <a href="https://www.springer.com/series/11156">
-          <Image className="image" src="https://entrepreneurship.ieee.org/wp-content/uploads/2020/03/770x320-ieeeexplore.png" />
+          <Image fluid className="image" src="https://entrepreneurship.ieee.org/wp-content/uploads/2020/03/770x320-ieeeexplore.png" />
         </a>
       </div>
       <p className="m-3 content">
@@ -157,7 +157,11 @@ const MainPage = () => (
       </h1>
       <Row className="text-center">
         <Col>
-          <Image className="image" src="https://odishanewsinsight.com/wp-content/uploads/2018/12/Ministry-of-Home-Affairs.png" />
+          <Image
+            fluid
+            className="image"
+            src="https://odishanewsinsight.com/wp-content/uploads/2018/12/Ministry-of-Home-Affairs.png"
+          />
           {/* <p>
             Ministry of Home Affairs
           </p> */}
