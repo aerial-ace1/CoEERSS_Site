@@ -44,6 +44,111 @@ export const Call = () => (
         </ListGroup>
       </Card.Body>
     </Card>
-    <br />
+    <Card className="text-center m-auto mt-3 mb-3">
+      <Card.Header as="h4">
+        Disaster Management
+      </Card.Header>
+      <Card.Body>
+
+        <ListGroup variant="flush">
+          <ListGroup.Item>Satellite and drone image processing</ListGroup.Item>
+          <ListGroup.Item>Classification of land cover using ML</ListGroup.Item>
+          <ListGroup.Item>Classify areas into positive and negative recovery</ListGroup.Item>
+        </ListGroup>
+      </Card.Body>
+    </Card>
+    <Card className="text-center m-auto mt-3 mb-3">
+      <Card.Header as="h4">
+
+        Disaster Prediction
+      </Card.Header>
+      <Card.Body>
+
+        <ListGroup variant="flush">
+          <ListGroup.Item>floods prediction</ListGroup.Item>
+          <ListGroup.Item>Strom and Rainfall prediction</ListGroup.Item>
+          <ListGroup.Item>Forecast flood risk, Cyclone</ListGroup.Item>
+          <ListGroup.Item>Earthquake forecast</ListGroup.Item>
+          <ListGroup.Item>Emotional Intelligence</ListGroup.Item>
+          <ListGroup.Item>Bridge Stature</ListGroup.Item>
+          <ListGroup.Item>Viral outbreak</ListGroup.Item>
+        </ListGroup>
+      </Card.Body>
+    </Card>
+    <Card className="text-center m-auto mt-3 mb-3">
+      <Card.Header as="h4">
+        In system resource Management
+      </Card.Header>
+      <Card.Body>
+
+        <ListGroup variant="flush">
+          <ListGroup.Item>Fake calls classification</ListGroup.Item>
+          <ListGroup.Item>Call capacity improvement during a disaster</ListGroup.Item>
+          <ListGroup.Item>AI answers distress and helps calls</ListGroup.Item>
+          <ListGroup.Item>Reliable data communication</ListGroup.Item>
+          <ListGroup.Item>Data segregation</ListGroup.Item>
+          <ListGroup.Item>Data management</ListGroup.Item>
+        </ListGroup>
+      </Card.Body>
+    </Card>
+    <Card className="text-center m-auto mt-3 mb-3">
+      <Card.Header as="h4">
+        Disaster Relief
+      </Card.Header>
+      <Card.Body>
+
+        <ListGroup variant="flush">
+          <ListGroup.Item>Crowd evacuation</ListGroup.Item>
+          <ListGroup.Item>forest fire</ListGroup.Item>
+          <ListGroup.Item>Classification of crowd situation</ListGroup.Item>
+          <ListGroup.Item>Determination of evacuation route</ListGroup.Item>
+        </ListGroup>
+      </Card.Body>
+    </Card>
+    <Card className="text-center m-auto mt-3 mb-3">
+      <Card.Header as="h4">
+        Monitoring applications
+      </Card.Header>
+      <Card.Body>
+
+        <ListGroup variant="flush">
+          <ListGroup.Item>Power grid</ListGroup.Item>
+          <ListGroup.Item>Criminal activity</ListGroup.Item>
+          <ListGroup.Item>Healthcare</ListGroup.Item>
+          <ListGroup.Item>hazardous vehicle identification (inflammable, gas, fuel)</ListGroup.Item>
+          <ListGroup.Item>Industry wastes</ListGroup.Item>
+        </ListGroup>
+      </Card.Body>
+    </Card>
+    <Card className="text-center m-auto mt-3 mb-3">
+      <Card.Header as="h4">
+        Emergency Response
+      </Card.Header>
+      <Card.Body>
+
+        <ListGroup variant="flush">
+          <ListGroup.Item>
+            Predictive Modelling of Ambulance Calls, Fire, Theft, Assault,
+            Accident, family dispute, Vehicle
+            theft, Abuse, Disrupted calls, Medical emergency
+          </ListGroup.Item>
+        </ListGroup>
+      </Card.Body>
+    </Card>
+
+    <Card className="text-center m-auto mt-3 mb-3">
+      <Card.Header as="h4">
+        Emergency Rescue
+      </Card.Header>
+      <Card.Body>
+
+        <ListGroup variant="flush">
+          <ListGroup.Item>Detecting flood areas using drones</ListGroup.Item>
+          <ListGroup.Item>Prevent crowd disasters using ML( SVM, Linear Regression)</ListGroup.Item>
+          <ListGroup.Item>Detecting damages to buildings</ListGroup.Item>
+        </ListGroup>
+      </Card.Body>
+    </Card>
+
   </div>
 );
