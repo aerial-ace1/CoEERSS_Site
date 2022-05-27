@@ -1,3 +1,3 @@
-# ICACNI-2022
+# ISERDM-2023
 
-A website for ICACNI 2022 conference
+A website for ISERDM-2023 conference

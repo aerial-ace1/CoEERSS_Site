@@ -10,7 +10,7 @@ export const ImportantDates = () => (
           <div className="date-outer">
             <span className="date">
               <span className="month">
-                March 5
+                June 15
                 <sup>th</sup>
               </span>
               <span className="year">2022</span>
@@ -18,7 +18,7 @@ export const ImportantDates = () => (
           </div>
         </div>
         <div className="timeline-content">
-          <h5 className="title">PAPER SUBMISSION</h5>
+          <h5 className="title">Start Date of Submission</h5>
         </div>
       </div>
       <div className="timeline">
@@ -27,15 +27,15 @@ export const ImportantDates = () => (
           <div className="date-outer">
             <span className="date">
               <span className="month">
-                March 5
-                <sup>th</sup>
+                September 31
+                <sup>st</sup>
               </span>
               <span className="year">2022</span>
             </span>
           </div>
         </div>
         <div className="timeline-content">
-          <h5 className="title">NOTIFICATION</h5>
+          <h5 className="title">Submission Deadline</h5>
         </div>
       </div>
       <div className="timeline">
@@ -44,7 +44,7 @@ export const ImportantDates = () => (
           <div className="date-outer">
             <span className="date">
               <span className="month">
-                March 5
+                November 30
                 <sup>th</sup>
               </span>
               <span className="year">2022</span>
@@ -52,7 +52,7 @@ export const ImportantDates = () => (
           </div>
         </div>
         <div className="timeline-content">
-          <h5 className="title">REGISTRATION</h5>
+          <h5 className="title">Notification Date (on or before)</h5>
         </div>
       </div>
       <div className="timeline">
@@ -61,7 +61,7 @@ export const ImportantDates = () => (
           <div className="date-outer">
             <span className="date">
               <span className="month">
-                March 5
+                December 10
                 <sup>th</sup>
               </span>
               <span className="year">2022</span>
@@ -70,7 +70,7 @@ export const ImportantDates = () => (
         </div>
         <div className="timeline-content">
           <h5 className="title">
-            CONFIRMATION OF REGISTRATION
+            Submission of camera ready paper
           </h5>
         </div>
       </div>
@@ -80,8 +80,8 @@ export const ImportantDates = () => (
           <div className="date-outer">
             <span className="date">
               <span className="month">
-                March 5
-                <sup>th</sup>
+                December 31
+                <sup>st</sup>
               </span>
               <span className="year">2022</span>
             </span>
@@ -89,26 +89,8 @@ export const ImportantDates = () => (
         </div>
         <div className="timeline-content">
           <h5 className="title">
-            ANNOUNCEMENT OF
-            PRESENTATION SCHEDULE
+            Registration Deadline
           </h5>
-        </div>
-      </div>
-      <div className="timeline">
-        <div className="icon" />
-        <div className="date-content">
-          <div className="date-outer">
-            <span className="date">
-              <span className="month">
-                March 5
-                <sup>th</sup>
-              </span>
-              <span className="year">2022</span>
-            </span>
-          </div>
-        </div>
-        <div className="timeline-content">
-          <h5 className="title">CONFERENCE</h5>
         </div>
       </div>
     </div>

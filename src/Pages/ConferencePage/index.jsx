@@ -3,7 +3,7 @@ import { Route, useRouteMatch } from 'react-router-dom';
 import PageContainer from '../../components/PageContainer';
 import { Venue } from '../../components/Conference/Venue';
 import { Lectures } from '../../components/Conference/Lectures';
-import { Call } from '../../components/Conference/Call';
+import { Apply } from '../../components/Conference/Apply';
 
 const ConferencePage = () => {
   const { path, url } = useRouteMatch();
@@ -17,8 +17,8 @@ const ConferencePage = () => {
       to: `${url}/venue`
     },
     {
-      name: 'CALL FOR 8TH ICANI 2020',
-      to: `${url}/callfor2020`
+      name: 'How to Apply',
+      to: `${url}/how-to-apply`
     }
   ];
   const Content = [
@@ -38,9 +38,9 @@ const ConferencePage = () => {
       content: <Venue />
     },
     {
-      name: 'CALL FOR 8TH ICANI 2020',
-      path: `${path}/callfor2020`,
-      content: <Call />
+      name: 'How to Apply',
+      path: `${path}/how-to-apply`,
+      content: <Apply />
     }
   ].map((link) => (
     <Route key={link.path} exact path={link.path}>

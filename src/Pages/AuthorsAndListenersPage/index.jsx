@@ -1,11 +1,19 @@
 import React from 'react';
 import { Route, useRouteMatch } from 'react-router-dom';
 import { ImportantDates } from '../../components/ImportantDates/ImportantDates';
-import { RegisteredArticles } from '../../components/RegisteredArticles/RegisteredArticles';
+// import { RegisteredArticles } from '../../components/RegisteredArticles/RegisteredArticles';
 import { AuthorGuidelines } from '../../components/AuthorGuidelines/AuthorGuidelines';
 import PageContainer from '../../components/PageContainer';
 import Publication from '../../components/Publication';
-import CallForPapers from '../../components/CallForPapers';
+import { Call } from '../../components/Conference/Call';
+import AnnouncedSoon from '../../components/AnnouncedSoon';
+
+const Filler = ({ title, text }) => (
+  <div>
+    <h1 className="mb-5">{title}</h1>
+    <AnnouncedSoon text={text} />
+  </div>
+);
 
 const AuthorsAndListenersPage = () => {
   const { path, url } = useRouteMatch();
@@ -40,17 +48,17 @@ const AuthorsAndListenersPage = () => {
     {
       name: 'PROGRAMME SCHEDULE',
       path: `${path}`,
-      content: <div>PROGRAMME SCHEDULE</div>
+      content: <Filler title="PROGRAMME SCHEDULE" text="Will be updated" />
     },
     {
       name: 'PROGRAMME SCHEDULE',
       path: `${path}/schedule`,
-      content: <div>PROGRAMME SCHEDULE</div>
+      content: <Filler title="PROGRAMME SCHEDULE" text="Will be updated" />
     },
     {
       name: 'REGISTERED ARTICLES',
       path: `${path}/articles`,
-      content: <RegisteredArticles />
+      content: <Filler title="REGISTERED ARTICLES" text="Will be updated" />
     },
     {
       name: 'CALL FOR PAPERS',
@@ -58,7 +66,7 @@ const AuthorsAndListenersPage = () => {
       content: (
         <>
           <h1>CALL FOR PAPERS</h1>
-          <CallForPapers />
+          <Call />
         </>
       )
     },

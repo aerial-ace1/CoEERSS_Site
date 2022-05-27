@@ -23,7 +23,7 @@ export const Footer = () => (
           <br />
           E-mail ID:
           {' '}
-          <a href="mailto:clip2022.nitt@gmail.com">icacni2022.nitt@gmail.com</a>
+          <a href="mailto:iserdm2023.nitt@gmail.com">iserdm2023.nitt@gmail.com</a>
           <br />
           Contact Nos.:
           {' '}

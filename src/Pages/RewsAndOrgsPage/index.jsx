@@ -1,9 +1,18 @@
 import React from 'react';
 import { Route, useRouteMatch } from 'react-router-dom';
+import AnnouncedSoon from '../../components/AnnouncedSoon';
 import PageContainer from '../../components/PageContainer';
-import { Award } from '../../components/REO/Award';
-import { Call } from '../../components/REO/Call';
+// import { Award } from '../../components/REO/Award';
+// import { Call } from '../../components/REO/Call';
+
 import { Guidelines } from '../../components/REO/Guidelines';
+
+const Filler = ({ title, text }) => (
+  <div>
+    <h1 className="mb-5">{title}</h1>
+    <AnnouncedSoon text={text} />
+  </div>
+);
 
 const RewsAndOrgsPage = () => {
   const { path, url } = useRouteMatch();
@@ -15,10 +24,6 @@ const RewsAndOrgsPage = () => {
     {
       name: 'CALL FOR SPECIAL SESSIONS',
       to: `${url}/callforspecialsession`
-    },
-    {
-      name: 'OUTSTANDING REVIEWER AWARD',
-      to: `${url}/outsrevieweaward`
     }
   ];
 
@@ -36,12 +41,7 @@ const RewsAndOrgsPage = () => {
     {
       name: 'CALL FOR SPECIAL SESSIONS',
       path: `${path}/callforspecialsession`,
-      content: <Call />
-    },
-    {
-      name: 'OUTSTANDING REVIEWER AWARD',
-      path: `${path}/outsrevieweaward`,
-      content: <Award />
+      content: <Filler title="CALL FOR SPECIAL SESSIONS" text="Will be updated" />
     }
   ].map((link) => (
     <Route key={link.path} exact path={link.path}>
