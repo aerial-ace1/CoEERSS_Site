@@ -11,7 +11,7 @@ const TopNavbar = () => {
     <>
 
       <div className="row m-auto color-brown" style={{ backgroundColor: '#962b07', color: 'white' }}>
-        <Col lg={3} className="text-center d-flex">
+        <Col lg={3} className="text-center d-flex justify-content-center">
           <img
             className={`${styles.nittLogo}`}
             src="https://www.nitt.edu/home/nittt-mob-latest.png"

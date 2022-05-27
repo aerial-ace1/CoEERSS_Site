@@ -11,12 +11,11 @@ const MainPage = () => (
       <Carousel.Item interval={1000}>
         <img
           className="car-img"
-          src="https://clip2022.nitt.edu/images/cse.png"
+          src="https://test.delta.nitt.edu/media/images/NITT.2e16d0ba.fill-1920x837.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>ISERDM-2023</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>National Institute of Technology, Tiruchirappalli</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={500}>
@@ -26,19 +25,17 @@ const MainPage = () => (
           alt="Second slide"
         />
         <Carousel.Caption>
-          <h3>ISERDM-2023</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>Department of CSE, NITT</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="car-img"
-          src="https://clip2022.nitt.edu/images/cse.png"
+          src="https://www.admissionmba.in/wp-content/uploads/2019/10/CDAC-Noida-Campus.jpg"
           alt="Third slide"
         />
         <Carousel.Caption>
-          <h3>ISERDM-2023</h3>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <h3>CDAC</h3>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
