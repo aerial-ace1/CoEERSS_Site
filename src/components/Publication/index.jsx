@@ -11,9 +11,10 @@ import { Image } from 'react-bootstrap';
 
 const Publication = () => (
   <>
+    <h1>Publication</h1>
     <div className="image-container">
       <a href="https://www.springer.com/series/11156">
-        <Image className="image" src="https://entrepreneurship.ieee.org/wp-content/uploads/2020/03/770x320-ieeeexplore.png" />
+        <Image fluid className="image" src="https://entrepreneurship.ieee.org/wp-content/uploads/2020/03/770x320-ieeeexplore.png" />
       </a>
     </div>
     <p className="m-3 content">
