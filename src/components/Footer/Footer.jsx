@@ -27,7 +27,10 @@ export const Footer = () => (
           <br />
           Contact Nos.:
           {' '}
-          <a href="tel:+91999999999">999999999</a>
+          <a href="tel:+919985953814">9985953814</a>
+          ,
+          {' '}
+          <a href="tel:+919944429848">9944429848</a>
         </Col>
         <Col
           md={4}

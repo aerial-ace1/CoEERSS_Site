@@ -22,6 +22,10 @@ const PeoplePage = () => {
     {
       name: 'COMMITTEE',
       to: `${url}/committee`
+    },
+    {
+      name: 'TECHNICAL COMMITTEE',
+      to: `${url}/technicalcommittee`
     }
   ];
 
@@ -40,6 +44,11 @@ const PeoplePage = () => {
       name: 'COMMITTEE',
       path: `${path}/committee`,
       content: <Committee />
+    },
+    {
+      name: 'TECHNICAL COMMITTEE',
+      path: `${path}/technicalcommittee`,
+      content: <Filler title="TECHNICAL COMMITTEE" text="Will be updated" />
     }
   ].map((link) => (
     <Route key={link.path} exact path={link.path}>
