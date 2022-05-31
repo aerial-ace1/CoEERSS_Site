@@ -7,7 +7,7 @@ import ContentContainer from '../ContentContainer';
 
 const PageContainer = ({ title, sidebarLinks, Content }) => (
   <Router basename="/ISERDM-2023">
-    <div className="container">
+    <div>
       <div className={styles.pageContainer}>
         <div className={styles.sideBarContainer}>
           <Sidebar title={title} sidebarLinks={sidebarLinks} />
