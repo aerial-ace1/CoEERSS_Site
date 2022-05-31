@@ -21,8 +21,8 @@ export const Apply = () => (
       <li>
         Go to the SBI-collect using the link:
         {' '}
-
-        <a href="https://www.onlinesbi.com/sbicollect/icollecthome.htm">Link</a>
+        Will be updated
+        {/* <a href="https://www.onlinesbi.com/sbicollect/icollecthome.htm">Link</a> */}
       </li>
       <li>Select the state as ‘Tamil Nadu’, and category as ‘Educational Institutions’.</li>
       <li>Select “Conference and Workshop NIT Trichy”.</li>

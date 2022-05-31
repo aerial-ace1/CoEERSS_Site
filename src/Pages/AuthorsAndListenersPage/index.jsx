@@ -19,16 +19,16 @@ const AuthorsAndListenersPage = () => {
   const { path, url } = useRouteMatch();
   const sidebarLinks = [
     {
-      name: 'CALL FOR PAPERS',
-      to: `${url}/callforpapers`
-    },
-    {
-      name: 'IMPORTANT DATES',
-      to: `${url}/importantdates`
+      name: 'TOPICS OF INTEREST',
+      to: `${url}/topicsofinterest`
     },
     {
       name: 'HOW TO APPLY',
       to: `${url}/how-to-apply`
+    },
+    {
+      name: 'IMPORTANT DATES',
+      to: `${url}/importantdates`
     },
     {
       name: 'PUBLICATION',
@@ -38,21 +38,21 @@ const AuthorsAndListenersPage = () => {
 
   const Content = [
     {
-      name: 'CALL FOR PAPERS',
+      name: 'TOPICS OF INTEREST',
       path: `${path}`,
       content: (
         <>
-          <h1>CALL FOR PAPERS</h1>
+          <h1>TOPICS OF INTEREST</h1>
           <Call />
         </>
       )
     },
     {
-      name: 'CALL FOR PAPERS',
-      path: `${path}/callforpapers`,
+      name: 'TOPICS OF INTEREST',
+      path: `${path}/topicsofinterest`,
       content: (
         <>
-          <h1>CALL FOR PAPERS</h1>
+          <h1>TOPICS OF INTEREST</h1>
           <Call />
         </>
       )
