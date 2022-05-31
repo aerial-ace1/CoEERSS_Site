@@ -2,30 +2,22 @@ import React from 'react';
 import { Route, useRouteMatch } from 'react-router-dom';
 import { ImportantDates } from '../../components/ImportantDates/ImportantDates';
 // import { RegisteredArticles } from '../../components/RegisteredArticles/RegisteredArticles';
-import { AuthorGuidelines } from '../../components/AuthorGuidelines/AuthorGuidelines';
 import PageContainer from '../../components/PageContainer';
 import Publication from '../../components/Publication';
 import { Call } from '../../components/Conference/Call';
-import AnnouncedSoon from '../../components/AnnouncedSoon';
+// import AnnouncedSoon from '../../components/AnnouncedSoon';
+import { Apply } from '../../components/Conference/Apply';
 
-const Filler = ({ title, text }) => (
-  <div>
-    <h1 className="mb-5">{title}</h1>
-    <AnnouncedSoon text={text} />
-  </div>
-);
+// const Filler = ({ title, text }) => (
+//   <div>
+//     <h1 className="mb-5">{title}</h1>
+//     <AnnouncedSoon text={text} />
+//   </div>
+// );
 
 const AuthorsAndListenersPage = () => {
   const { path, url } = useRouteMatch();
   const sidebarLinks = [
-    {
-      name: 'PROGRAMME SCHEDULE',
-      to: `${url}/schedule`
-    },
-    {
-      name: 'REGISTERED ARTICLES',
-      to: `${url}/articles`
-    },
     {
       name: 'CALL FOR PAPERS',
       to: `${url}/callforpapers`
@@ -35,30 +27,25 @@ const AuthorsAndListenersPage = () => {
       to: `${url}/importantdates`
     },
     {
-      name: 'PUBLICATION',
-      to: `${url}/publication`
+      name: 'HOW TO APPLY',
+      to: `${url}/how-to-apply`
     },
     {
-      name: 'AUTHOR GUIDELINES',
-      to: `${url}/authorguidelines`
+      name: 'PUBLICATION',
+      to: `${url}/publication`
     }
   ];
 
   const Content = [
     {
-      name: 'PROGRAMME SCHEDULE',
+      name: 'CALL FOR PAPERS',
       path: `${path}`,
-      content: <Filler title="PROGRAMME SCHEDULE" text="Will be updated" />
-    },
-    {
-      name: 'PROGRAMME SCHEDULE',
-      path: `${path}/schedule`,
-      content: <Filler title="PROGRAMME SCHEDULE" text="Will be updated" />
-    },
-    {
-      name: 'REGISTERED ARTICLES',
-      path: `${path}/articles`,
-      content: <Filler title="REGISTERED ARTICLES" text="Will be updated" />
+      content: (
+        <>
+          <h1>CALL FOR PAPERS</h1>
+          <Call />
+        </>
+      )
     },
     {
       name: 'CALL FOR PAPERS',
@@ -69,6 +56,11 @@ const AuthorsAndListenersPage = () => {
           <Call />
         </>
       )
+    },
+    {
+      name: 'HOW TO APPLY',
+      path: `${path}/how-to-apply`,
+      content: <Apply />
     },
     {
       name: 'IMPORTANT DATES',
@@ -85,18 +77,13 @@ const AuthorsAndListenersPage = () => {
       name: 'PUBLICATION',
       path: `${path}/publication`,
       content: <Publication />
-    },
-    {
-      name: 'AUTHOR GUIDELINES',
-      path: `${path}/authorguidelines`,
-      content: <AuthorGuidelines />
     }
   ].map((link) => (
     <Route key={link.path} exact path={link.path}>
       {link.content}
     </Route>
   ));
-  return <PageContainer title="FOR AUTHORS AND LISTENERS" sidebarLinks={sidebarLinks} Content={Content} />;
+  return <PageContainer title="CALL FOR PAPERS" sidebarLinks={sidebarLinks} Content={Content} />;
 };
 
 export default AuthorsAndListenersPage;

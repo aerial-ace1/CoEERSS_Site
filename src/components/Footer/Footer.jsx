@@ -11,7 +11,7 @@ export const Footer = () => (
           className="footer-col"
         >
           <h3 className="footer-heading1 mb-1">Contact</h3>
-          Department of CSE
+          Centre of Excellence in Emergency Response Support System,
           {' '}
           <br />
           National Institute of Technology
@@ -23,7 +23,7 @@ export const Footer = () => (
           <br />
           E-mail ID:
           {' '}
-          <a href="mailto:iserdm2023.nitt@gmail.com">iserdm2023.nitt@gmail.com</a>
+          <a href="mailto:coeerss@gmail.com">coeerss@gmail.com</a>
           <br />
           Contact Nos.:
           {' '}

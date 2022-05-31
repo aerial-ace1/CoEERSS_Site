@@ -62,11 +62,11 @@ const TopNavbar = () => {
             <Nav.Link className={styles.colorWhite} onClick={() => history.push('/conference/keynotelectures')}>
               CONFERENCE
             </Nav.Link>
-            <Nav.Link className={styles.colorWhite} onClick={() => history.push('/authandlist/schedule')}>
-              FOR AUTHORS AND LISTENERS
+            <Nav.Link className={styles.colorWhite} onClick={() => history.push('/callforpapers/callforpapers')}>
+              CALL FOR PAPERS
             </Nav.Link>
-            <Nav.Link className={styles.colorWhite} onClick={() => history.push('/revsandorgs/reviewerguidelines')}>
-              FOR REVIWERS AND SESSION ORGANIZERS
+            <Nav.Link className={styles.colorWhite} onClick={() => history.push('/authorsandlisteners/authorguidelines')}>
+              FOR AUTHORS AND LISTENERS
             </Nav.Link>
             <Nav.Link className={styles.colorWhite} onClick={() => history.push('/people/advisoryboard')}>
               PEOPLE

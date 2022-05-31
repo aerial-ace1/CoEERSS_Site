@@ -41,7 +41,7 @@ const MainPage = () => (
     </Carousel>
     <div className="container mt-5">
       <h1>
-        About ISERDM
+        About the Conference
       </h1>
       <p className="m-3 content">
         <p>
@@ -102,6 +102,75 @@ const MainPage = () => (
         </p>
       </p>
       <br />
+      <h1>
+        About NITT
+      </h1>
+      <p className="m-3 content">
+        <p>
+          The National Institute of Technology (formerly known as Regional Engineering College)
+          Tiruchirappalli (NITT) was started as a joint and co-operative venture of the Government
+          of India and the Government of Tamil Nadu in 1964 with a view to catering the needs of
+          manpower in technology for the country. NITT is one of the 31 National Institutes of
+          Technology established by the Government of India and ranks First among all the NITs
+          in NIRF during three consecutive years. The institution offers Undergraduate Courses
+          in ten branches and Post Graduate Courses in twenty-one disciplines of Science,
+          Engineering & Technology besides M.S. (by Research) and Ph.D. in all the departments.
+        </p>
+      </p>
+      <br />
+      <h1>
+        ABOUT THE COE in EMERGENCY RESPONSE SUPPORT SYSTEM @ NIT, TRICHY
+      </h1>
+      <p className="m-3 content">
+        <p>
+          Emergency Response Support System (ERSS) is the vision of Govt.
+          of India to launch an integrated emergency response system with a
+          single emergency number 112, to address different emergencies of citizens.
+          ERSS is designed to address all emergency signals received from citizens
+          through voice call, SMS, e-mail, panic SOS signal, ERSS web portal etc.
+        </p>
+        <p>
+          ERSS tracks the rescue and service vehicles of all services
+          (Police, Fire, Health etc.) in real-time on a digital map of
+          the State/UT and hence it will be possible to direct the right vehicle(s)
+          to reach the service requestor and provide necessary support immediately.
+        </p>
+        <p>
+          The CoE in ERSS at National Institute of Technology, Tiruchirappalli,
+          operates with a primary focus on setting up an automated facility for
+          emergency purpose in the capital cities of all States and UTs, called
+          Public Safety Answering Point (PSAP), will handle all the emergency
+          signals and provide assistance available to the people in distress within
+          the best possible time with the help of Police, Fire & Rescue,
+          Health services etc. This multi-faceted unique center offers skill
+          development courses, Internships, Research and Development assistance
+          across various sectors.
+        </p>
+      </p>
+      <br />
+      <h1>
+        ABOUT  CDAC, TRIVANDRUM
+      </h1>
+      <p className="m-3 content">
+        <p>
+          The centre at Thiruvananthapuram has been working in application oriented research,
+          design and development for various industrial and customer requirements.
+          Over the years, Centre has acquired competency, expertise and extensive experience
+          in the areas of Broadcast & Communications, Control & Instrumentation, Networking,
+          Power Electronics, ASIC Design and Underwater Electronics.
+
+        </p>
+        <p>
+          The centre accorded prime importance to making such products easily productionable,
+          testable and field maintainable, thereby ensuring highly reliable operation.
+          The technology development initiatives are focused in the identified core areas of
+          Electronics and Information Technology, with funding from various Sponsors.
+          The outputs of these efforts coupled with the high-value expertise and experience gained
+          are conceptualized as products, either entirely new, or with quantum improvements on
+          those based on existing technology. Scores of technologies developed have been transferred
+          to Technology partners for large-scale production.
+        </p>
+      </p>
       <h1>
         Proceedings of ISERDM
       </h1>

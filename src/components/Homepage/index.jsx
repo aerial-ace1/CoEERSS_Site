@@ -20,13 +20,13 @@ export const Homepage = () => {
       getPage: () => <ConferencePage />
     },
     {
-      name: 'FOR AUTHORS AND LISTENERS',
-      url: '/authandlist',
+      name: 'CALL FOR PAPERS',
+      url: '/callforpapers',
       getPage: () => <AuthorsAndListenersPage />
     },
     {
-      name: 'FOR REVIEWERS AMD SESSION ORGANIZERS',
-      url: '/revsandorgs',
+      name: 'FOR AUTHORS AND LISTENERS',
+      url: '/authorsandlisteners',
       getPage: () => <RewsAndOrgsPage />
     },
     {
