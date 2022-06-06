@@ -17,12 +17,12 @@ const ConferencePage = () => {
   const { path, url } = useRouteMatch();
   const sidebarLinks = [
     {
-      name: 'KEYNOTE LECTURES',
-      to: `${url}/keynotelectures`
-    },
-    {
       name: 'LECTURES',
       to: `${url}/lectures`
+    },
+    {
+      name: 'KEYNOTE LECTURES',
+      to: `${url}/keynotelectures`
     },
     {
       name: 'TUTORIAL SPEAKERS',
@@ -35,9 +35,9 @@ const ConferencePage = () => {
   ];
   const Content = [
     {
-      name: 'KEYNOTE LECTURES',
+      name: 'LECTURES',
       path: `${path}`,
-      content: <Filler title="KEYNOTE LECTURES" text="Will be updated" />
+      content: <Filler title="LECTURES" text="Will be updated" />
     },
     {
       name: 'KEYNOTE LECTURES',

@@ -18,7 +18,7 @@ const Publication = () => (
       </a>
     </div>
     <p className="m-3 content">
-      After a careful reviewing process, all accepted and presented papers
+      After a careful reviewing process, it is planned that all accepted and presented papers
       after proper registration and presentation,
       will be published into Conference Proceedings by IEEE, which will be
       included IEEE Xplore and submitted for Ei Compendex and Scopus.

@@ -5,7 +5,11 @@ export const AuthorGuidelines = () => (
     <h1>Author Guidelines</h1>
     <b>Submission Details</b>
     <ol>
-      <li>Word Template: Formatting.doc</li>
+      <li>
+        Word Template:
+        {' '}
+        <a href="https://docs.google.com/document/d/1e4i7yp1deZdvIuTvMkOKQOlG5PaslFpljIzf4rcrRLo/edit?usp=sharing" target="_blank" rel="noreferrer"> Formatting.doc </a>
+      </li>
       <li>
         Prospective authors are kindly invited to submit papers electronically to
         ISERDM - 2023 through Easy Chair.

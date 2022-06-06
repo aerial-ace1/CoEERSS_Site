@@ -1,9 +1,10 @@
 import React from 'react';
 import './style.css';
 import {
-  Carousel, Image, Row, Col
+  Carousel, Image
 } from 'react-bootstrap';
 import { ImportantDates } from '../ImportantDates/ImportantDates';
+import AnnouncedSoon from '../AnnouncedSoon';
 
 const MainPage = () => (
   <div className="main-page">
@@ -180,7 +181,7 @@ const MainPage = () => (
         </a>
       </div>
       <p className="m-3 content">
-        After a careful reviewing process, all accepted and presented papers
+        After a careful reviewing process, it is planned that all accepted and presented papers
         after proper registration and presentation,
         will be published into Conference Proceedings by IEEE, which will be
         included IEEE Xplore and submitted for Ei Compendex and Scopus.
@@ -221,19 +222,20 @@ const MainPage = () => (
       <h1>
         Technical Co-Sponsors
       </h1>
-      <Row className="text-center">
+      <AnnouncedSoon text="Will be updated..." />
+      {/* <Row className="text-center">
         <Col>
           <Image
             fluid
             className="image"
             src="https://odishanewsinsight.com/wp-content/uploads/2018/12/Ministry-of-Home-Affairs.png"
           />
-          {/* <p>
+          <p>
             Ministry of Home Affairs
-          </p> */}
+          </p>
         </Col>
 
-      </Row>
+      </Row> */}
       <br />
     </div>
   </div>

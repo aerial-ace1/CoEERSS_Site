@@ -67,7 +67,7 @@ export const Call = () => (
     </Card>
     <Card className="text-center m-auto mt-3 mb-3">
       <Card.Header as="h4">
-        In system resource Management
+        System resource Management
       </Card.Header>
       <Card.Body>
         <ListGroup variant="flush">

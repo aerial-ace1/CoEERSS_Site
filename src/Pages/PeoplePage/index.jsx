@@ -1,16 +1,9 @@
 import React from 'react';
 import { Route, useRouteMatch } from 'react-router-dom';
-import AnnouncedSoon from '../../components/AnnouncedSoon';
 import PageContainer from '../../components/PageContainer';
 import { Committee } from '../../components/Committee';
+import { AdvisoryBoard } from '../../components/Committee/AdvisoryBoard';
 // import styles from './style.module.css';
-
-const Filler = ({ title, text }) => (
-  <div>
-    <h1 className="mb-5">{title}</h1>
-    <AnnouncedSoon text={text} />
-  </div>
-);
 
 const PeoplePage = () => {
   const { path, url } = useRouteMatch();
@@ -33,12 +26,12 @@ const PeoplePage = () => {
     {
       name: 'ADVISORY BOARD',
       path: `${path}`,
-      content: <Filler title="ADVISORY BOARD" text="Will be updated" />
+      content: <AdvisoryBoard />
     },
     {
       name: 'ADVISORY BOARD',
       path: `${path}/advisoryboard`,
-      content: <Filler title="ADVISORY BOARD" text="Will be updated" />
+      content: <AdvisoryBoard />
     },
     {
       name: 'COMMITTEE',
@@ -48,7 +41,7 @@ const PeoplePage = () => {
     {
       name: 'TECHNICAL COMMITTEE',
       path: `${path}/technicalcommittee`,
-      content: <Filler title="TECHNICAL COMMITTEE" text="Will be updated" />
+      content: <AdvisoryBoard technical />
     }
   ].map((link) => (
     <Route key={link.path} exact path={link.path}>
