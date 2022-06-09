@@ -4,27 +4,28 @@ import {
 } from 'react-bootstrap';
 import { useHistory } from 'react-router-dom';
 import styles from './style.module.css';
+import cdac from './cdac.png';
+import nitt from './nitt.png';
 
 const TopNavbar = () => {
   const history = useHistory();
   return (
     <>
 
-      <div className="row m-auto color-brown" style={{ backgroundColor: '#962b07', color: 'white' }}>
-        <Col lg={3} className="text-center d-flex justify-content-center">
+      <div className="row m-auto color-brown" style={{ backgroundColor: '#011c38', color: 'white' }}>
+        <Col lg={3} className="text-center d-flex justify-content-center brand">
           <img
             className={`${styles.nittLogo}`}
-            src="https://www.nitt.edu/home/nittt-mob-latest.png"
+            src={nitt}
             alt="NIT Trichy Logo"
           />
         </Col>
-        <Col lg={8}>
+        <Col lg={6}>
           <div className={styles.title}>
             <div>
               <h2>ISERDM-2023</h2>
+              <h4>First International Conference on</h4>
               <h6>
-                First International Conference on
-                <br />
                 Intelligent Solutions for Emergency Response and Disaster Management
                 <br />
                 Jointly organized by NIT, Tiruchirappalli and CDAC, Trivandrum
@@ -45,6 +46,14 @@ const TopNavbar = () => {
             </div>
           </div>
 
+        </Col>
+        <Col lg={3} className="text-center d-flex justify-content-center brand">
+          <img
+            className={`${styles.nittLogo}`}
+            src={cdac}
+            style={{ padding: '15px', filter: 'brightness(0) invert(1)' }}
+            alt="CDAC Logo"
+          />
         </Col>
       </div>
       <Navbar
