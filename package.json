@@ -1,7 +1,6 @@
 {
   "name": "iserdm-2023",
   "version": "0.1.0",
-  "homepage": "https://indreshp135.github.io/ISERDM-2023/",
   "private": true,
   "dependencies": {
     "bootstrap": "^5.1.3",
