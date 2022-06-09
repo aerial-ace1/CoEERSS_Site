@@ -27,7 +27,7 @@ const TopNavbar = () => {
                 <br />
                 Intelligent Solutions for Emergency Response and Disaster Management
                 <br />
-                Jointly organized by NIT, Trichy and CDAC, Trivandrum
+                Jointly organized by NIT, Tiruchirappalli and CDAC, Trivandrum
 
               </h6>
               <div style={{ wordBreak: 'break-all' }}>

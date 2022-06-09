@@ -52,33 +52,58 @@ const MainPage = () => (
           National Institute of Technology Tiruchirappalli, and Centre for
           Development of Advanced Computing (CDAC),
           Trivandrum, is deliberated to step in widening the knowledge of Sustainable
-          developments through the participation of researchers, academicians,
-          and professionals from all over the country.
+          development through the participation of researchers, academicians,
+          and professionals from all over India.
         </p>
         <p>
           Emergency Response Support System (ERSS) is a Pan-India single number
           (112) based emergency response system for citizens in emergencies.
           The Emergency Response Centre is capable of receiving emergency calls
           through voice call to 112, email, panic buttons activated calls and 112
-          India mobile App. The objectives include: i. Providing a single
-          emergency response number across the country. ii. Providing 24
-          Hours and 7 Days (24x7) efficient and effective response system which
-          can receive input from various voice and data services such as voice call,
-          SMS, email, Internet of Things, panic buttons in public transport etc. to
-          attend to citizen in distress. iii. Identification of location of person in
-          distress connecting through voice or data. iv. Automated response system for
-          timely dispatch of field resources (police) to the location of incidence using
-          the system. v. GPS (Global Positioning System) enabled dispatch of vehicles to
-          locate nearest vehicles. vi. Integration with existing Dial 100, Dial 108 and other
-          emergency response systems. vii. Integrate with other relevant systems like CCTNS etc.
-          Also, connect to TSP’s (Telecom Service Provider) databases to update subscriber
-          information and to connect to GMLC (Gateway Mobile Location Centre) for location update.
-          viii. Provide standardized and easy to use mobile apps, IoT (Internet of Things)
-          enabled applications on a Pan-India basis. Intelligence
-          Techniques have potential to alleviate the damage by marshalling relief
+          India mobile App. The objectives include:
+
+        </p>
+        <ol style={{ listStyleType: 'lower-alpha' }}>
+          <li>
+            Providing a single emergency response number across the country.
+          </li>
+          <li>
+            Providing 24 Hours and 7 Days (24x7) efficient and effective response system which
+            can receive input from various voice and data services such as voice call,
+            SMS, email, Internet of Things, panic buttons in public transport etc. to
+            attend to citizen in distress.
+          </li>
+          <li>
+            Identification of location of person in
+            distress connecting through voice or data.
+          </li>
+          <li>
+            Automated response system for
+            timely dispatch of field resources (police) to the location of incidence using
+            the system.
+          </li>
+          <li>
+            GPS (Global Positioning System) enabled dispatch of vehicles to
+            locate nearest vehicles.
+          </li>
+          <li>
+            Integration with existing Dial 100, Dial 108 and other
+            emergency response systems.
+          </li>
+          <li>
+            Integrate with other relevant systems like CCTNS etc.
+            Also, connect to TSP’s (Telecom Service Provider) databases to update subscriber
+            information and to connect to GMLC (Gateway Mobile Location Centre) for location update.
+          </li>
+          <li>
+            Provide standardized and easy to use mobile apps, IoT (Internet of Things)
+            enabled applications on a Pan-India basis.
+          </li>
+        </ol>
+        <p>
+          Intelligence Techniques have potential to alleviate the damage by marshalling relief
           resources more efficiently and effectively. It can accelerate the delivery of
           aid and sharpen the decisions of relief workers on the front lines.
-
         </p>
         <p>
           Natural disasters are out of the reach and influence of human beings.
@@ -89,7 +114,7 @@ const MainPage = () => (
         </p>
         <p>
           The main goal of this conference is to share and discuss solutions to
-          Emergency Support and Disaster Management through Intelligent techniques.
+          Emergency Support and Disaster Management through Intelligence.
           The significance of this conference lies in the pressing need for the integration of
           Intelligent solutions to address the challenges for
           Emergency Support and Disaster Management.
@@ -98,8 +123,7 @@ const MainPage = () => (
           the different approaches developed
           in emergency support and disaster management.
           This conference provides opportunities to interact with prominent peoples
-          in the field and immensely expand your network of scholars and professionals.
-
+          in the field and immensely expand the network of scholars and professionals.
         </p>
       </p>
       <br />
@@ -113,14 +137,14 @@ const MainPage = () => (
           of India and the Government of Tamil Nadu in 1964 with a view to catering the needs of
           manpower in technology for the country. NITT is one of the 31 National Institutes of
           Technology established by the Government of India and ranks First among all the NITs
-          in NIRF during three consecutive years. The institution offers Undergraduate Courses
+          in NIRF. The institution offers Undergraduate Courses
           in ten branches and Post Graduate Courses in twenty-one disciplines of Science,
           Engineering & Technology besides M.S. (by Research) and Ph.D. in all the departments.
         </p>
       </p>
       <br />
       <h1>
-        ABOUT THE COE in EMERGENCY RESPONSE SUPPORT SYSTEM @ NIT, TRICHY
+        ABOUT THE COE in EMERGENCY RESPONSE SUPPORT SYSTEM @ NIT, TIRUCHIRAPPALLI
       </h1>
       <p className="m-3 content">
         <p>
@@ -166,7 +190,7 @@ const MainPage = () => (
           testable and field maintainable, thereby ensuring highly reliable operation.
           The technology development initiatives are focused in the identified core areas of
           Electronics and Information Technology, with funding from various Sponsors.
-          The outputs of these efforts coupled with the high-value expertise and experience gained
+          The output of these efforts coupled with the high-value expertise and experience gained
           are conceptualized as products, either entirely new, or with quantum improvements on
           those based on existing technology. Scores of technologies developed have been transferred
           to Technology partners for large-scale production.
@@ -181,10 +205,9 @@ const MainPage = () => (
         </a>
       </div>
       <p className="m-3 content">
-        After a careful reviewing process, it is planned that all accepted and presented papers
-        after proper registration and presentation,
-        will be published into Conference Proceedings by IEEE, which will be
-        included IEEE Xplore and submitted for Ei Compendex and Scopus.
+        After a careful peer review process, it is planned that all accepted papers after proper
+        registration and presentation, will be published in Conference Proceedings by IEEE,
+        which will be included IEEE Xplore and submitted to Ei Compendex and Scopus.
       </p>
       <br />
       <h1>

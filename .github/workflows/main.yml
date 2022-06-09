@@ -1,0 +1,49 @@
+name: CI
+
+on:
+  push:
+    branches: [prod]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Cache dependencies
+        id: cache
+        uses: actions/cache@v2
+        with:
+          path: ./node_modules
+          key: modules-${{ hashFiles('package.json') }}
+
+      - name: Install dependencies
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: npm install
+
+      - name: Build
+        run: |
+          npm run lint
+          npm run build
+  
+  deploy:
+    needs: [build]
+    name: Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: deploy
+      uses: appleboy/ssh-action@master
+      with:
+        host: delta.nitt.edu
+        port: 22
+        username: hedhav
+        key: ${{ secrets.SSH_SECRET }}
+        script: |
+          cd ISERDM-2023
+          git checkout .
+          git fetch origin
+          git reset --hard origin/prod
+          npm i
+          npm run build

@@ -73,10 +73,22 @@ export const Call = () => (
         <ListGroup variant="flush">
           <ListGroup.Item>Fake calls classification</ListGroup.Item>
           <ListGroup.Item>Call capacity improvement during a disaster</ListGroup.Item>
-          <ListGroup.Item>AI answers distress and helps calls</ListGroup.Item>
+          <ListGroup.Item>AI answers for distress and helps calls</ListGroup.Item>
           <ListGroup.Item>Reliable data communication</ListGroup.Item>
           <ListGroup.Item>Data segregation</ListGroup.Item>
           <ListGroup.Item>Data management</ListGroup.Item>
+          <ListGroup.Item>Data Security</ListGroup.Item>
+          <ListGroup.Item>Caller emotion detection</ListGroup.Item>
+          <ListGroup.Item>Big data Management</ListGroup.Item>
+          <ListGroup.Item>Data Science</ListGroup.Item>
+          <ListGroup.Item>Data Analytics</ListGroup.Item>
+          <ListGroup.Item>Crowd face detection</ListGroup.Item>
+          <ListGroup.Item>Object detection and tracking</ListGroup.Item>
+          <ListGroup.Item>Visual sensor networks</ListGroup.Item>
+          <ListGroup.Item>Privacy preserving</ListGroup.Item>
+          <ListGroup.Item>Deep learning</ListGroup.Item>
+          <ListGroup.Item>Federated learning</ListGroup.Item>
+          <ListGroup.Item>Edge computing</ListGroup.Item>
         </ListGroup>
       </Card.Body>
     </Card>
