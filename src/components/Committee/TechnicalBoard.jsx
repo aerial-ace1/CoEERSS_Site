@@ -54,15 +54,9 @@ export const TechnicalBoard = () => (
       </Card.Header>
       <Card.Body>
         <ListGroup variant="flush">
-          Dr. G. Sivakumar, Indian Institute of Technology, Bombay
           Dr. Ashim Saha, National Institute of Technology, Agartala
           Dr. Bhaskar Mondal, National Institute of Technology  Patna
           Dr. Naresh Babu Muppalaneni, National Institute of Technology, Silchar
-          Dr. S. Selvakumar, National Institute of Technology, Tiruchirappalli
-          Dr. N. Ramasubramanian, National Institute of Technology, Tiruchirappalli
-          Dr. C. Mala, National Institute of Technology, Tiruchirappalli
-          Dr. S. Mary Saira Bhanu, National Institute of Technology, Tiruchirappalli
-          Dr. R. Leela Velusamy, National Institute of Technology, Tiruchirappalli
           Dr. Karthik S., National Institute of Technology, Andhra Pradesh
           Dr. Arun Raj Kumar P., National Institute of Technology, Calicut
           Dr. Vasudevan A. R., National Institute of Technology, Calicut

@@ -71,6 +71,12 @@ const TopNavbar = () => {
             <Nav.Link className={styles.colorWhite} onClick={() => history.push('/people/advisoryboard')}>
               PEOPLE
             </Nav.Link>
+            <Nav.Link className={styles.colorWhite} onClick={() => history.push('/venue')}>
+              Venue
+            </Nav.Link>
+            <Nav.Link className={styles.colorWhite} onClick={() => history.push('/contact')}>
+              Contact
+            </Nav.Link>
             {/* <Nav.Link
                 className={styles.colorWhite}
                 onClick={() => history.push('/pastconferences')}

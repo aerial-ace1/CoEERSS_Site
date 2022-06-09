@@ -7,7 +7,9 @@ import {
   AuthorsAndListenersPage,
   ConferencePage,
   RewsAndOrgsPage,
-  PeoplePage
+  PeoplePage,
+  VenuePage,
+  ContactPage
   // PastConferencesPage
 } from '../../Pages';
 import { Footer } from '../Footer/Footer';
@@ -33,6 +35,16 @@ export const Homepage = () => {
       name: 'PEOPLE',
       url: '/people',
       getPage: () => <PeoplePage />
+    },
+    {
+      name: 'VENUE',
+      url: '/venue',
+      getPage: () => <VenuePage />
+    },
+    {
+      name: 'CONTACT',
+      url: '/contact',
+      getPage: () => <ContactPage />
     }
     // {
     //   name: 'PAST CONFERENCES',
