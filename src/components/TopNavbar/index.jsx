@@ -81,10 +81,10 @@ const TopNavbar = () => {
               PEOPLE
             </Nav.Link>
             <Nav.Link className={styles.colorWhite} onClick={() => history.push('/venue')}>
-              Venue
+              VENUE
             </Nav.Link>
             <Nav.Link className={styles.colorWhite} onClick={() => history.push('/contact')}>
-              Contact
+              CONTACT
             </Nav.Link>
             {/* <Nav.Link
                 className={styles.colorWhite}
