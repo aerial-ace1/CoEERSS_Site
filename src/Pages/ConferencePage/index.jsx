@@ -1,7 +1,6 @@
 import React from 'react';
 import { Route, useRouteMatch } from 'react-router-dom';
 import PageContainer from '../../components/PageContainer';
-import { Venue } from '../../components/Conference/Venue';
 // import { Lectures } from '../../components/Conference/Lectures';
 // import { Apply } from '../../components/Conference/Apply';
 import AnnouncedSoon from '../../components/AnnouncedSoon';
@@ -27,10 +26,6 @@ const ConferencePage = () => {
     {
       name: 'TUTORIAL SPEAKERS',
       to: `${url}/tutorialspeakers`
-    },
-    {
-      name: 'VENUE',
-      to: `${url}/venue`
     }
   ];
   const Content = [
@@ -53,11 +48,6 @@ const ConferencePage = () => {
       name: 'TUTORIAL SPEAKERS',
       path: `${path}/tutorialspeakers`,
       content: <Filler title="TUTORIAL SPEAKERS" text="Will be updated" />
-    },
-    {
-      name: 'VENUE',
-      path: `${path}/venue`,
-      content: <Venue />
     }
   ].map((link) => (
     <Route key={link.path} exact path={link.path}>
