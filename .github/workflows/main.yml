@@ -39,7 +39,7 @@ jobs:
         host: delta.nitt.edu
         port: 22
         username: hedhav
-        key: ${{ secrets.SSH_SECRET }}
+        password: ${{ secrets.PASSWORD }}
         script: |
           cd ISERDM-2023
           git checkout .
