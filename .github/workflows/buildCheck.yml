@@ -1,6 +1,9 @@
 name: CI
 
-on: [pull_request, push]
+# not on branch prod
+on: 
+  push:
+    branches: ['!prod']
 
 jobs:
   build:
