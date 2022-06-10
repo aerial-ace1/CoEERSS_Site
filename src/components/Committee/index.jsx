@@ -9,20 +9,16 @@ export const Committee = () => (
       <Card.Header as="h4">
         Patron
       </Card.Header>
-      <Card.Body className="d-flex justify-content-around">
+      <Card.Body className="d-flex justify-content-around flex-wrap">
         <div>
-          <div>
-            <img alt="" style={{ borderRadius: '50%', width: '200px', height: '200px' }} src="https://clip2022.nitt.edu/images/director.png" />
-            <br />
-            Dr. G. Aghila, Director, NIT, Trichy
-          </div>
+          <img alt="" style={{ borderRadius: '50%', width: '200px', height: '200px' }} src="https://clip2022.nitt.edu/images/director.png" />
+          <br />
+          Dr. G. Aghila, Director, NIT, Trichy
         </div>
         <div>
-          <div>
-            <img alt="" style={{ borderRadius: '50%', width: '200px', height: '200px' }} src="https://media-exp1.licdn.com/dms/image/C5603AQEatW8IY41OmQ/profile-displayphoto-shrink_800_800/0/1516323192531?e=1660176000&v=beta&t=l5zBTZkQzzSbHaH6BQBOC6fe2rSiawL6VU3JbwzBfrU" />
-            <br />
-            Shri. E Magesh, Director General, C-DAC
-          </div>
+          <img alt="" style={{ borderRadius: '50%', width: '200px', height: '200px' }} src="https://media-exp1.licdn.com/dms/image/C5603AQEatW8IY41OmQ/profile-displayphoto-shrink_800_800/0/1516323192531?e=1660176000&v=beta&t=l5zBTZkQzzSbHaH6BQBOC6fe2rSiawL6VU3JbwzBfrU" />
+          <br />
+          Shri. E Magesh, Director General, C-DAC
         </div>
       </Card.Body>
     </Card>
@@ -31,7 +27,7 @@ export const Committee = () => (
       <Card.Header as="h4">
         General Chairman
       </Card.Header>
-      <Card.Body className="d-flex justify-content-around">
+      <Card.Body className="d-flex justify-content-around flex-wrap">
         <div>
           <img alt="" style={{ borderRadius: '50%', width: '200px', height: '200px' }} src="https://www.nitt.edu/www/uploads/1256_tkr.jpg" />
           <br />
@@ -49,7 +45,7 @@ export const Committee = () => (
       <Card.Header as="h4">
         General Secretary
       </Card.Header>
-      <Card.Body className="d-flex justify-content-around">
+      <Card.Body className="d-flex justify-content-around flex-wrap">
         <div>
           <img alt="" style={{ borderRadius: '50%', width: '200px', height: '200px' }} src="https://www.nitt.edu/home/academics/departments/eee/people/faculty/MVK.jpg" />
           <br />
@@ -71,7 +67,7 @@ export const Committee = () => (
       <Card.Header as="h4">
         Technical Chairman
       </Card.Header>
-      <Card.Body className="d-flex justify-content-around">
+      <Card.Body className="d-flex justify-content-around flex-wrap">
         <div>
           <img alt="" style={{ borderRadius: '50%', width: '200px', height: '200px' }} src="https://www.nitt.edu/home/academics/departments/eee/people/faculty/simon/SPS.jpg" />
           <br />
@@ -88,7 +84,7 @@ export const Committee = () => (
       <Card.Header as="h4">
         Organizing Chairman
       </Card.Header>
-      <Card.Body className="d-flex justify-content-around">
+      <Card.Body className="d-flex justify-content-around flex-wrap">
         <div>
           <img alt="" style={{ borderRadius: '50%', width: '200px', height: '200px' }} src="https://www.nitt.edu/home/academics/departments/ice/faculty/sivakumaran//nsk.jpg" />
           <br />
@@ -105,7 +101,7 @@ export const Committee = () => (
       <Card.Header as="h4">
         Organizing Secretary
       </Card.Header>
-      <Card.Body className="d-flex justify-content-around">
+      <Card.Body className="d-flex justify-content-around flex-wrap">
         <div>
           <img alt="" style={{ borderRadius: '50%', width: '200px', height: '200px' }} src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=SgRHn0AAAAAJ&citpid=4" />
           <br />

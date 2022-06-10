@@ -26,22 +26,20 @@ export const Venue = () => (
     <p>
       Trichy is connected by road to Chennai (320 km) and to all major towns in South India by
       regular bus services. Tiruchirapalli is an important junction on the Southern Railway.
-      It connects Chennai, Thanjavur, Madurai, Tuticorin, Tirupati, Rameswaram,
-      Bangalore, Coimbatore, Cochin and Mangalore. NIT-Trichy is located about 22 km from
-      Tiruchurapalli Junction / Central Bus stand on the Trichy-Thanjavur Highway.
-      The simplest and most economical way to reach NIT-Trichy from these two places is by bus.
-      Any city Bus at Tiruchirapalli Junction will take you to the central bus stand.
-      Board Thanjavur bound mofussiful or route bus.
-      The journey time from Trichy will be around 40 minutes. The executive way of reaching
-      NIT-Trichy will be hiring a taxi. Taxis may charge around Rs. 250/-.
+      It connects Chennai, Thanjavur, Madurai, Tuticorin, Tirupati, Rameswaram, Bangalore,
+      Coimbatore, Cochin and Mangalore. NIT-Trichy is located about 22 km from Tiruchirapalli
+      Junction / Central Bus stand on the Trichy-Thanjavur Highway. The simplest and most economical
+      way to reach NIT-Trichy from these two places is by bus. Any city Bus at Tiruchirapalli
+      Junction will take you to the central bus stand. Board Thanjavur bound mofussiful or route
+      bus. The journey time from Trichy will be around 40 minutes.
     </p>
 
     <p className="mb-5">
-      Trichy also has an international airport, and is connected with Chennai (Madras),
-      Singapore, Colombo, Kuwait, Sharjah, Calicut. Indian Airlines connects Trichy with Chennai,
-      Sharjah, Calicut Kuwait and Colombo. Air Lanka Service connects Tiruchirapalli with Colombo.
+      Trichy also has an international airport, and is connected with Chennai (Madras), Singapore,
+      Colombo, Kuwait, Sharjah, Calicut. Indian Airlines connects Trichy with Chennai, Sharjah,
+      Calicut Kuwait and Colombo. Air Lanka Service connects Tiruchirapalli with Colombo.
       The best way of reaching NIT-Trichy from Trichy airport will be hiring a taxi.
-      Taxis may charge around Rs. 250/-.
+      Taxis may charge around Rs. 650/-.
     </p>
   </div>
 );

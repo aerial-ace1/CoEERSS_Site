@@ -44,158 +44,155 @@ const MainPage = () => (
       <h1>
         About the Conference
       </h1>
-      <p className="m-3 content">
-        <p>
-          The International Conference on “
-          <b>Intelligent Solutions for Emergency Support and Disaster Management</b>
-          ,” jointly Organized by CoE in Emergency Response Support System (ERSS)/
-          National Institute of Technology Tiruchirappalli, and Centre for
-          Development of Advanced Computing (CDAC),
-          Trivandrum, is deliberated to step in widening the knowledge of Sustainable
-          development through the participation of researchers, academicians,
-          and professionals from all over India.
-        </p>
-        <p>
-          Emergency Response Support System (ERSS) is a Pan-India single number
-          (112) based emergency response system for citizens in emergencies.
-          The Emergency Response Centre is capable of receiving emergency calls
-          through voice call to 112, email, panic buttons activated calls and 112
-          India mobile App. The objectives include:
+      <p>
 
-        </p>
-        <ol style={{ listStyleType: 'lower-alpha' }}>
-          <li>
-            Providing a single emergency response number across the country.
-          </li>
-          <li>
-            Providing 24 Hours and 7 Days (24x7) efficient and effective response system which
-            can receive input from various voice and data services such as voice call,
-            SMS, email, Internet of Things, panic buttons in public transport etc. to
-            attend to citizen in distress.
-          </li>
-          <li>
-            Identification of location of person in
-            distress connecting through voice or data.
-          </li>
-          <li>
-            Automated response system for
-            timely dispatch of field resources (police) to the location of incidence using
-            the system.
-          </li>
-          <li>
-            GPS (Global Positioning System) enabled dispatch of vehicles to
-            locate nearest vehicles.
-          </li>
-          <li>
-            Integration with existing Dial 100, Dial 108 and other
-            emergency response systems.
-          </li>
-          <li>
-            Integrate with other relevant systems like CCTNS etc.
-            Also, connect to TSP’s (Telecom Service Provider) databases to update subscriber
-            information and to connect to GMLC (Gateway Mobile Location Centre) for location update.
-          </li>
-          <li>
-            Provide standardized and easy to use mobile apps, IoT (Internet of Things)
-            enabled applications on a Pan-India basis.
-          </li>
-        </ol>
-        <p>
-          Intelligence Techniques have potential to alleviate the damage by marshalling relief
-          resources more efficiently and effectively. It can accelerate the delivery of
-          aid and sharpen the decisions of relief workers on the front lines.
-        </p>
-        <p>
-          Natural disasters are out of the reach and influence of human beings.
-          However, a lot can be done to minimize loss of lives.
-          Intelligence Techniques is one viable option that can potentially prevent massive
-          loss of lives while at the same time make rescue efforts easy and efficient.
+        The International Conference on “
+        <b>Intelligent Solutions for Emergency Support and Disaster Management</b>
+        ,” jointly Organized by CoE in Emergency Response Support System (ERSS)/
+        National Institute of Technology Tiruchirappalli, and Centre for
+        Development of Advanced Computing (CDAC),
+        Trivandrum, is deliberated to step in widening the knowledge of Sustainable
+        development through the participation of researchers, academicians,
+        and professionals from all over India.
+      </p>
+      <p>
+        Emergency Response Support System (ERSS) is a Pan-India single number
+        (112) based emergency response system for citizens in emergencies.
+        The Emergency Response Centre is capable of receiving emergency calls
+        through voice call to 112, email, panic buttons activated calls and 112
+        India mobile App. The objectives include:
 
-        </p>
-        <p>
-          The main goal of this conference is to share and discuss solutions to
-          Emergency Support and Disaster Management through Intelligence.
-          The significance of this conference lies in the pressing need for the integration of
-          Intelligent solutions to address the challenges for
-          Emergency Support and Disaster Management.
-          The conference will discuss the various ideologies &
-          methods of more Intelligent solutions and also investigates
-          the different approaches developed
-          in emergency support and disaster management.
-          This conference provides opportunities to interact with prominent peoples
-          in the field and immensely expand the network of scholars and professionals.
-        </p>
+      </p>
+      <ol style={{ listStyleType: 'lower-alpha' }}>
+        <li>
+          Providing a single emergency response number across the country.
+        </li>
+        <li>
+          Providing 24 Hours and 7 Days (24x7) efficient and effective response system which
+          can receive input from various voice and data services such as voice call,
+          SMS, email, Internet of Things, panic buttons in public transport etc. to
+          attend to citizen in distress.
+        </li>
+        <li>
+          Identification of location of person in
+          distress connecting through voice or data.
+        </li>
+        <li>
+          Automated response system for
+          timely dispatch of field resources (police) to the location of incidence using
+          the system.
+        </li>
+        <li>
+          GPS (Global Positioning System) enabled dispatch of vehicles to
+          locate nearest vehicles.
+        </li>
+        <li>
+          Integration with existing Dial 100, Dial 108 and other
+          emergency response systems.
+        </li>
+        <li>
+          Integrate with other relevant systems like CCTNS etc.
+          Also, connect to TSP’s (Telecom Service Provider) databases to update subscriber
+          information and to connect to GMLC (Gateway Mobile Location Centre) for location update.
+        </li>
+        <li>
+          Provide standardized and easy to use mobile apps, IoT (Internet of Things)
+          enabled applications on a Pan-India basis.
+        </li>
+      </ol>
+      <p>
+        Intelligence Techniques have potential to alleviate the damage by marshalling relief
+        resources more efficiently and effectively. It can accelerate the delivery of
+        aid and sharpen the decisions of relief workers on the front lines.
+      </p>
+      <p>
+        Natural disasters are out of the reach and influence of human beings.
+        However, a lot can be done to minimize loss of lives.
+        Intelligence Techniques is one viable option that can potentially prevent massive
+        loss of lives while at the same time make rescue efforts easy and efficient.
+
+      </p>
+      <p>
+        The main goal of this conference is to share and discuss solutions to
+        Emergency Support and Disaster Management through Intelligence.
+        The significance of this conference lies in the pressing need for the integration of
+        Intelligent solutions to address the challenges for
+        Emergency Support and Disaster Management.
+        The conference will discuss the various ideologies &
+        methods of more Intelligent solutions and also investigates
+        the different approaches developed
+        in emergency support and disaster management.
+        This conference provides opportunities to interact with prominent peoples
+        in the field and immensely expand the network of scholars and professionals.
       </p>
       <br />
       <h1>
         About NITT
       </h1>
-      <p className="m-3 content">
-        <p>
-          The National Institute of Technology (formerly known as Regional Engineering College)
-          Tiruchirappalli (NITT) was started as a joint and co-operative venture of the Government
-          of India and the Government of Tamil Nadu in 1964 with a view to catering the needs of
-          manpower in technology for the country. NITT is one of the 31 National Institutes of
-          Technology established by the Government of India and ranks First among all the NITs
-          in NIRF. The institution offers Undergraduate Courses
-          in ten branches and Post Graduate Courses in twenty-one disciplines of Science,
-          Engineering & Technology besides M.S. (by Research) and Ph.D. in all the departments.
-        </p>
+      <p>
+        The National Institute of Technology (formerly known as Regional Engineering College)
+        Tiruchirappalli (NITT) was started as a joint and co-operative venture of the Government
+        of India and the Government of Tamil Nadu in 1964 with a view to catering the needs of
+        manpower in technology for the country. NITT is one of the 31 National Institutes of
+        Technology established by the Government of India and ranks First among all the NITs
+        in NIRF. The institution offers Undergraduate Courses
+        in ten branches and Post Graduate Courses in twenty-one disciplines of Science,
+        Engineering & Technology besides M.S. (by Research) and Ph.D. in all the departments.
       </p>
       <br />
       <h1>
         ABOUT THE COE in EMERGENCY RESPONSE SUPPORT SYSTEM @ NIT, TIRUCHIRAPPALLI
       </h1>
-      <p className="m-3 content">
-        <p>
-          Emergency Response Support System (ERSS) is the vision of Govt.
-          of India to launch an integrated emergency response system with a
-          single emergency number 112, to address different emergencies of citizens.
-          ERSS is designed to address all emergency signals received from citizens
-          through voice call, SMS, e-mail, panic SOS signal, ERSS web portal etc.
-        </p>
-        <p>
-          ERSS tracks the rescue and service vehicles of all services
-          (Police, Fire, Health etc.) in real-time on a digital map of
-          the State/UT and hence it will be possible to direct the right vehicle(s)
-          to reach the service requestor and provide necessary support immediately.
-        </p>
-        <p>
-          The CoE in ERSS at National Institute of Technology, Tiruchirappalli,
-          operates with a primary focus on setting up an automated facility for
-          emergency purpose in the capital cities of all States and UTs, called
-          Public Safety Answering Point (PSAP), will handle all the emergency
-          signals and provide assistance available to the people in distress within
-          the best possible time with the help of Police, Fire & Rescue,
-          Health services etc. This multi-faceted unique center offers skill
-          development courses, Internships, Research and Development assistance
-          across various sectors.
-        </p>
+      <p>
+
+        Emergency Response Support System (ERSS) is the vision of Govt.
+        of India to launch an integrated emergency response system with a
+        single emergency number 112, to address different emergencies of citizens.
+        ERSS is designed to address all emergency signals received from citizens
+        through voice call, SMS, e-mail, panic SOS signal, ERSS web portal etc.
       </p>
+      <p>
+        ERSS tracks the rescue and service vehicles of all services
+        (Police, Fire, Health etc.) in real-time on a digital map of
+        the State/UT and hence it will be possible to direct the right vehicle(s)
+        to reach the service requestor and provide necessary support immediately.
+      </p>
+      <p>
+        The CoE in ERSS at National Institute of Technology, Tiruchirappalli,
+        operates with a primary focus on setting up an automated facility for
+        emergency purpose in the capital cities of all States and UTs, called
+        Public Safety Answering Point (PSAP), will handle all the emergency
+        signals and provide assistance available to the people in distress within
+        the best possible time with the help of Police, Fire & Rescue,
+        Health services etc. This multi-faceted unique center offers skill
+        development courses, Internships, Research and Development assistance
+        across various sectors.
+      </p>
+
       <br />
       <h1>
         ABOUT  CDAC, TRIVANDRUM
       </h1>
-      <p className="m-3 content">
-        <p>
-          The centre at Thiruvananthapuram has been working in application oriented research,
-          design and development for various industrial and customer requirements.
-          Over the years, Centre has acquired competency, expertise and extensive experience
-          in the areas of Broadcast & Communications, Control & Instrumentation, Networking,
-          Power Electronics, ASIC Design and Underwater Electronics.
+      <p>
 
-        </p>
-        <p>
-          The centre accorded prime importance to making such products easily productionable,
-          testable and field maintainable, thereby ensuring highly reliable operation.
-          The technology development initiatives are focused in the identified core areas of
-          Electronics and Information Technology, with funding from various Sponsors.
-          The output of these efforts coupled with the high-value expertise and experience gained
-          are conceptualized as products, either entirely new, or with quantum improvements on
-          those based on existing technology. Scores of technologies developed have been transferred
-          to Technology partners for large-scale production.
-        </p>
+        The centre at Thiruvananthapuram has been working in application oriented research,
+        design and development for various industrial and customer requirements.
+        Over the years, Centre has acquired competency, expertise and extensive experience
+        in the areas of Broadcast & Communications, Control & Instrumentation, Networking,
+        Power Electronics, ASIC Design and Underwater Electronics.
+
       </p>
+      <p>
+        The centre accorded prime importance to making such products easily productionable,
+        testable and field maintainable, thereby ensuring highly reliable operation.
+        The technology development initiatives are focused in the identified core areas of
+        Electronics and Information Technology, with funding from various Sponsors.
+        The output of these efforts coupled with the high-value expertise and experience gained
+        are conceptualized as products, either entirely new, or with quantum improvements on
+        those based on existing technology. Scores of technologies developed have been transferred
+        to Technology partners for large-scale production.
+      </p>
+
       <h1>
         Proceedings of ISERDM
       </h1>
@@ -204,7 +201,7 @@ const MainPage = () => (
           <Image fluid className="image" src="https://entrepreneurship.ieee.org/wp-content/uploads/2020/03/770x320-ieeeexplore.png" />
         </a>
       </div>
-      <p className="m-3 content">
+      <p>
         After a careful peer review process, it is planned that all accepted papers after proper
         registration and presentation, will be published in Conference Proceedings by IEEE,
         which will be included IEEE Xplore and submitted to Ei Compendex and Scopus.

@@ -10,7 +10,6 @@ export const Contact = () => (
       md={8}
       className="footer-col"
     >
-      <h3 className="footer-heading1 mb-1">Contact</h3>
       Centre of Excellence in Emergency Response Support System,
       {' '}
       <br />

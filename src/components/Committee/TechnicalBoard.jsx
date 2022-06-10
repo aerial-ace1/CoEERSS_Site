@@ -54,41 +54,111 @@ export const TechnicalBoard = () => (
       </Card.Header>
       <Card.Body>
         <ListGroup variant="flush">
-          Dr. Ashim Saha, National Institute of Technology, Agartala
-          Dr. Bhaskar Mondal, National Institute of Technology  Patna
-          Dr. Naresh Babu Muppalaneni, National Institute of Technology, Silchar
-          Dr. Karthik S., National Institute of Technology, Andhra Pradesh
-          Dr. Arun Raj Kumar P., National Institute of Technology, Calicut
-          Dr. Vasudevan A. R., National Institute of Technology, Calicut
-          Dr. Narendran Rajagopalan, National Institute of Technology, Puducherry
-          Dr. B. Surendiran, National Institute of Technology, Puducherry
-          Dr. P. Kumaran, National Institute of Technology, Puducherry
-          Dr. R. Eswari, National Institute of Technology, Tiruchirappalli
-          Dr. S. Sangeetha, National Institute of Technology, Tiruchirappalli
-          Dr. U. Srinivasulu Reddy, National Institute of Technology, Tiruchirappalli
-          Dr. Selvakumar K, National Institute of Technology, Tiruchirappalli
-          Dr. V. Uma, Pondicherry University, Puducherry
-          Dr. Preeth R., Indian Institute of Information Technology, Kurnool
-          Dr. T. Veni, National Institute of Technology, Calicut
-          Dr. Manjith B.C., Indian Institute of Information Technology, Kottayam
-          Dr. Satyanarayana Vollala, Indian Institute of Information Technology, Naya Raipur
-          Dr. Bhukya Krishna Priya, Indian Institute of Information Technology, Kancheepuram
-          Dr. Sadagopan N, Indian Institute of Information Technology, Kancheepuram
-          Dr. Falmari Vinod Ramesh, Government Polytechnic, Solapur, Maharashtra
-          Dr. Koppala Guravaiah, Indian Institute of Information Technology, Kottayam
-          Dr. R. Mohan, National Institute of Technology, Tiruchirappalli
-          Dr. S. Jaya Nirmala, National Institute of Technology, Tiruchirappalli
-          Dr. Kunwar Singh, National Institute of Technology, Tiruchirappalli
-          Dr. E. Sivasankar, National Institute of Technology, Tiruchirappalli
-          Dr. B. Nithya, National Institute of Technology, Tiruchirappalli
-          Dr. M. Sridevi, National Institute of Technology, Tiruchirappalli
-          Dr. B. Shameedha Begum, National Institute of Technology, Tiruchirappalli
-          Dr. A. Santhana Vijayan, National Institute of Technology, Tiruchirappalli
-          Dr. R. Balakrishnan, National Institute of Technology, Tiruchirappalli
-          Dr. Saikrishna Mothku, National Institute of Technology, Tiruchirappalli
-          Dr. Sitara K, National Institute of Technology, Tiruchirappalli
-          Dr. Kamalika Bhattacharjee, National Institute of Technology, Tiruchirappalli
-          Dr. Chandramani Chaudhary, National Institute of Technology, Tiruchirappalli
+          <ListGroup.Item>
+            Dr. Ashim Saha, National Institute of Technology, Agartala
+          </ListGroup.Item>
+          <ListGroup.Item>
+            Dr. Bhaskar Mondal, National Institute of Technology  Patna
+          </ListGroup.Item>
+          <ListGroup.Item>
+            Dr. Naresh Babu Muppalaneni, National Institute of Technology, Silchar
+          </ListGroup.Item>
+          <ListGroup.Item>
+            Dr. Karthik S., National Institute of Technology, Andhra Pradesh
+          </ListGroup.Item>
+          <ListGroup.Item>
+            Dr. Arun Raj Kumar P., National Institute of Technology, Calicut
+          </ListGroup.Item>
+          <ListGroup.Item>
+            Dr. Vasudevan A. R., National Institute of Technology, Calicut
+          </ListGroup.Item>
+          <ListGroup.Item>
+            Dr. Narendran Rajagopalan, National Institute of Technology, Puducherry
+          </ListGroup.Item>
+          <ListGroup.Item>
+            Dr. B. Surendiran, National Institute of Technology, Puducherry
+          </ListGroup.Item>
+          <ListGroup.Item>
+            Dr. P. Kumaran, National Institute of Technology, Puducherry
+          </ListGroup.Item>
+          <ListGroup.Item>
+            Dr. R. Eswari, National Institute of Technology, Tiruchirappalli
+          </ListGroup.Item>
+          <ListGroup.Item>
+            Dr. S. Sangeetha, National Institute of Technology, Tiruchirappalli
+          </ListGroup.Item>
+          <ListGroup.Item>
+            Dr. U. Srinivasulu Reddy, National Institute of Technology, Tiruchirappalli
+          </ListGroup.Item>
+          <ListGroup.Item>
+            Dr. Selvakumar K, National Institute of Technology, Tiruchirappalli
+          </ListGroup.Item>
+          <ListGroup.Item>
+            Dr. V. Uma, Pondicherry University, Puducherry
+          </ListGroup.Item>
+          <ListGroup.Item>
+            Dr. Preeth R., Indian Institute of Information Technology, Kurnool
+          </ListGroup.Item>
+          <ListGroup.Item>
+            Dr. T. Veni, National Institute of Technology, Calicut
+          </ListGroup.Item>
+          <ListGroup.Item>
+            Dr. Manjith B.C., Indian Institute of Information Technology, Kottayam
+          </ListGroup.Item>
+          <ListGroup.Item>
+            Dr. Satyanarayana Vollala, Indian Institute of Information Technology, Naya Raipur
+          </ListGroup.Item>
+          <ListGroup.Item>
+            Dr. Bhukya Krishna Priya, Indian Institute of Information Technology, Kancheepuram
+          </ListGroup.Item>
+          <ListGroup.Item>
+            Dr. Sadagopan N, Indian Institute of Information Technology, Kancheepuram
+          </ListGroup.Item>
+          <ListGroup.Item>
+            Dr. Falmari Vinod Ramesh, Government Polytechnic, Solapur, Maharashtra
+          </ListGroup.Item>
+          <ListGroup.Item>
+            Dr. Koppala Guravaiah, Indian Institute of Information Technology, Kottayam
+          </ListGroup.Item>
+          <ListGroup.Item>
+            Dr. R. Mohan, National Institute of Technology, Tiruchirappalli
+          </ListGroup.Item>
+          <ListGroup.Item>
+            Dr. S. Jaya Nirmala, National Institute of Technology, Tiruchirappalli
+          </ListGroup.Item>
+          <ListGroup.Item>
+            Dr. Kunwar Singh, National Institute of Technology, Tiruchirappalli
+          </ListGroup.Item>
+          <ListGroup.Item>
+            Dr. E. Sivasankar, National Institute of Technology, Tiruchirappalli
+          </ListGroup.Item>
+          <ListGroup.Item>
+            Dr. B. Nithya, National Institute of Technology, Tiruchirappalli
+          </ListGroup.Item>
+          <ListGroup.Item>
+            Dr. M. Sridevi, National Institute of Technology, Tiruchirappalli
+          </ListGroup.Item>
+          <ListGroup.Item>
+            Dr. B. Shameedha Begum, National Institute of Technology, Tiruchirappalli
+          </ListGroup.Item>
+          <ListGroup.Item>
+            Dr. A. Santhana Vijayan, National Institute of Technology, Tiruchirappalli
+          </ListGroup.Item>
+          <ListGroup.Item>
+            Dr. R. Balakrishnan, National Institute of Technology, Tiruchirappalli
+          </ListGroup.Item>
+          <ListGroup.Item>
+            Dr. Saikrishna Mothku, National Institute of Technology, Tiruchirappalli
+          </ListGroup.Item>
+          <ListGroup.Item>
+            Dr. Sitara K, National Institute of Technology, Tiruchirappalli
+          </ListGroup.Item>
+          <ListGroup.Item>
+            Dr. Kamalika Bhattacharjee, National Institute of Technology, Tiruchirappalli
+          </ListGroup.Item>
+          <ListGroup.Item>
+            Dr. Chandramani Chaudhary, National Institute of Technology, Tiruchirappalli
+          </ListGroup.Item>
         </ListGroup>
       </Card.Body>
     </Card>

@@ -3,6 +3,7 @@ import { Route, useRouteMatch } from 'react-router-dom';
 import PageContainer from '../../components/PageContainer';
 import { Committee } from '../../components/Committee';
 import { AdvisoryBoard } from '../../components/Committee/AdvisoryBoard';
+import { TechnicalBoard } from '../../components/Committee/TechnicalBoard';
 // import styles from './style.module.css';
 
 const PeoplePage = () => {
@@ -41,7 +42,7 @@ const PeoplePage = () => {
     {
       name: 'TECHNICAL COMMITTEE',
       path: `${path}/technicalcommittee`,
-      content: <AdvisoryBoard technical />
+      content: <TechnicalBoard />
     }
   ].map((link) => (
     <Route key={link.path} exact path={link.path}>
