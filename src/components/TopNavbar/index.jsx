@@ -12,7 +12,7 @@ const TopNavbar = () => {
   return (
     <>
 
-      <div className="row m-auto color-brown" style={{ backgroundColor: '#011c38', color: 'white' }}>
+      <div className="row m-auto color-brown" style={{ backgroundColor: '#962b07', color: 'white' }}>
         <Col lg={3} className="text-center d-flex justify-content-center brand">
           <img
             className={`${styles.nittLogo}`}

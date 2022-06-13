@@ -12,9 +12,14 @@ export const AuthorGuidelines = () => (
       </li>
       <li>
         Prospective authors are kindly invited to submit papers electronically to
-        ISERDM - 2023 through Easy Chair. For submission of paper, at least one of the
-        Authors of the paper should be a registered user of Easy Chair. Unregistered authors
-        should first create an account on Easy Chair.
+        ISERDM - 2023 through Easy Chair  using the following link:
+        {' '}
+        <a href="https://easychair.org/conferences/?conf=iserdm2023">
+          here
+        </a>
+        . For submission of paper, at least one of the Authors of the paper should
+        be a registered user of Easy Chair. Unregistered authors should first
+        create an account on Easy Chair.
       </li>
       <li>
         Full Paper (Presentation and Publication):

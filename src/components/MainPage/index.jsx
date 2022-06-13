@@ -19,16 +19,6 @@ const MainPage = () => (
           <h3>National Institute of Technology, Tiruchirappalli</h3>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={500}>
-        <img
-          className="car-img"
-          src="https://clip2022.nitt.edu/images/cse.png"
-          alt="Second slide"
-        />
-        <Carousel.Caption>
-          <h3>Department of CSE, NITT</h3>
-        </Carousel.Caption>
-      </Carousel.Item>
       <Carousel.Item>
         <img
           className="car-img"
@@ -203,8 +193,8 @@ const MainPage = () => (
       </div>
       <p>
         After a careful peer review process, it is planned that all accepted papers after proper
-        registration and presentation, will be published in Conference Proceedings by IEEE,
-        which will be included IEEE Xplore and submitted to Ei Compendex and Scopus.
+        registration will be published in Conference Proceedings by IEEE, which will be included
+        IEEE Xplore and submitted to Ei Compendex and Scopus.
       </p>
       <br />
       <h1>

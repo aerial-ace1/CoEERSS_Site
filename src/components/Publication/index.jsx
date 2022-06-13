@@ -18,10 +18,9 @@ const Publication = () => (
       </a>
     </div>
     <p className="m-3 content">
-      After a careful peer review process,
-      it is planned that all accepted papers after proper registration and presentation,
-      will be published in Conference Proceedings by IEEE,
-      which will be included IEEE Xplore and submitted to Ei Compendex and Scopus.
+      After a careful peer review process, it is planned that all accepted papers after proper
+      registration will be published in Conference Proceedings by IEEE, which will be included
+      IEEE Xplore and submitted to Ei Compendex and Scopus.
     </p>
   </>
 );
