@@ -15,7 +15,7 @@ export const AuthorGuidelines = () => (
         ISERDM - 2023 through Easy Chair  using the following link:
         {' '}
         <a href="https://easychair.org/conferences/?conf=iserdm2023">
-          here
+          ISERDM-2023
         </a>
         . For submission of paper, at least one of the Authors of the paper should
         be a registered user of Easy Chair. Unregistered authors should first
