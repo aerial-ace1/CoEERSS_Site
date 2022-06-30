@@ -36,11 +36,11 @@ const TopNavbar = () => {
                   9
                   <sup>th</sup>
                   {' '}
-                  January 2023 -
+                  -
                   11
                   <sup>th</sup>
                   {' '}
-                  January, 2023
+                  January 2023
                 </h6>
               </div>
             </div>

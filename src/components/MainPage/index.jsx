@@ -4,7 +4,10 @@ import {
   Carousel, Image
 } from 'react-bootstrap';
 import { ImportantDates } from '../ImportantDates/ImportantDates';
-import AnnouncedSoon from '../AnnouncedSoon';
+import { BestPaper } from '../BestPaper';
+import brz from './assets/brz.png';
+import sil from './assets/sil.png';
+import gld from './assets/gld.png';
 
 const MainPage = () => (
   <div className="main-page">
@@ -122,8 +125,8 @@ const MainPage = () => (
       <p>
         The National Institute of Technology (formerly known as Regional Engineering College)
         Tiruchirappalli (NITT) was started as a joint and co-operative venture of the Government
-        of India and the Government of Tamil Nadu in 1964 with a view to catering the needs of
-        manpower in technology for the country. NITT is one of the 31 National Institutes of
+        of India and the Government of Tamil Nadu in 1964 with a view to cater the needs of manpower
+        in technology for the country. NITT is one of the 31 National Institutes of
         Technology established by the Government of India and ranks First among all the NITs
         in NIRF. The institution offers Undergraduate Courses
         in ten branches and Post Graduate Courses in twenty-one disciplines of Science,
@@ -194,7 +197,7 @@ const MainPage = () => (
       <p>
         After a careful peer review process, it is planned that all accepted papers after proper
         registration will be published in Conference Proceedings by IEEE, which will be included
-        IEEE Xplore and submitted to Ei Compendex and Scopus.
+        IEEE Xplore and submitted to Ei Compendex and Scopus. (Submitted the Proposal)
       </p>
       <br />
       <h1>
@@ -229,23 +232,80 @@ const MainPage = () => (
         </Card.Body>
       </Card>
       <br /> */}
+      <BestPaper />
       <h1>
         Technical Co-Sponsors
       </h1>
-      <AnnouncedSoon text="Will be updated..." />
-      {/* <Row className="text-center">
-        <Col>
-          <Image
-            fluid
-            className="image"
-            src="https://odishanewsinsight.com/wp-content/uploads/2018/12/Ministry-of-Home-Affairs.png"
-          />
-          <p>
-            Ministry of Home Affairs
-          </p>
-        </Col>
+      <h3>Sponsorship Opportunities</h3>
+      <p>
+        Sponsorship of
+        {' '}
+        <b>ISERDM 2023</b>
+        {' '}
+        provides a company or an organization with a unique opportunity to increase its visibility
+        and product awareness within a highly specialized, influential community.
+      </p>
+      <p>
+        Acknowledgements of the sponsors, such as the company&#39;s name, product, and logo,
+        will appear in the main page of ISERDM, WWW Server and in all official documentation
+        of the conference.
+      </p>
+      <p>
+        For
+        {' '}
+        <b>ISERDM 2023</b>
+        {' '}
+        sponsorship opportunities please contact :
+      </p>
+      <p>
+        Dr. P. A. Karthick, Assistant Professor, Department of ICE, NIT, Trichy,
+        Email : pakarthick@nitt.edu
 
-      </Row> */}
+      </p>
+      <br />
+      <h5>
+        Gold Sponsorship (INR 75,000 or above)
+      </h5>
+      <Image className="img-fluid m-3" src={gld} />
+      <ol>
+        <li>FOUR full conference registrations</li>
+        <li>Exhibits Space</li>
+        <li>A full page ad in the Conference Proceedings</li>
+        <li>A full page ad in the final conference program</li>
+        <li>Inclusion of your company logo in all conference advertising</li>
+        <li>Prominent signage identifying company as a Gold patron</li>
+        <li>Name and logo in our WWW advertising, linkage to your company website</li>
+        <li>Acknowledgement in opening address</li>
+      </ol>
+      <br />
+      <h5>
+        Silver Sponsorship (INR 50,000 or above)
+      </h5>
+      <Image className="img-fluid m-3" src={sil} />
+      <ol>
+        <li>TWO full conference registrations</li>
+        <li>Exhibits Space</li>
+        <li>A quarter page ad in the final conference program</li>
+        <li>Inclusion of your logo in all conference advertising</li>
+        <li>Prominent signage identifying company as a Silver patron</li>
+        <li>Name and logo in our WWW advertising, linkage to your company website</li>
+        <li>Acknowledgement in opening address</li>
+
+      </ol>
+      <br />
+      <h5>
+        Bronze Sponsorship ( INR  25,000 or above)
+      </h5>
+      <Image className="img-fluid m-3" src={brz} />
+      <ol>
+        <li>ONE full conference registration</li>
+        <li>Exhibits Space</li>
+        <li>A quarter page ad in the final conference program</li>
+        <li>Inclusion of the logo in all conference advertising</li>
+        <li>Prominent signage identifying company as a Bronze patron</li>
+        <li>Name and logo in our WWW advertising, linkage to the company website</li>
+        <li>Acknowledgement in opening address</li>
+      </ol>
       <br />
     </div>
   </div>

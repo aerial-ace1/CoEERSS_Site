@@ -4,6 +4,7 @@ import PageContainer from '../../components/PageContainer';
 // import { Lectures } from '../../components/Conference/Lectures';
 // import { Apply } from '../../components/Conference/Apply';
 import AnnouncedSoon from '../../components/AnnouncedSoon';
+import { KeynoteSpeakers } from '../../components/KeynoteSpeakers';
 
 const Filler = ({ title, text }) => (
   <div>
@@ -20,7 +21,7 @@ const ConferencePage = () => {
       to: `${url}/lectures`
     },
     {
-      name: 'KEYNOTE LECTURES',
+      name: 'KEYNOTE SPEAKERS',
       to: `${url}/keynotelectures`
     },
     {
@@ -35,9 +36,9 @@ const ConferencePage = () => {
       content: <Filler title="LECTURES" text="Will be updated" />
     },
     {
-      name: 'KEYNOTE LECTURES',
+      name: 'KEYNOTE SPEAKERS',
       path: `${path}/keynotelectures`,
-      content: <Filler title="KEYNOTE LECTURES" text="Will be updated" />
+      content: <KeynoteSpeakers />
     },
     {
       name: 'LECTURES',

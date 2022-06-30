@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
+import i1 from './assets/img.png';
 
 export const Committee = () => (
   <div>
@@ -106,6 +107,18 @@ export const Committee = () => (
           <img alt="" style={{ borderRadius: '50%', width: '200px', height: '200px' }} src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=SgRHn0AAAAAJ&citpid=4" />
           <br />
           Dr. P. A. Karthick
+        </div>
+      </Card.Body>
+    </Card>
+    <Card className="text-center m-auto mt-3 mb-3">
+      <Card.Header as="h4">
+        Treasurer
+      </Card.Header>
+      <Card.Body className="d-flex justify-content-around flex-wrap">
+        <div>
+          <img alt="" style={{ borderRadius: '50%', width: '200px', height: '200px' }} src={i1} />
+          <br />
+          Dr. K. Srinivasan
         </div>
       </Card.Body>
     </Card>

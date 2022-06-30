@@ -2,6 +2,7 @@ import React from 'react';
 import { Route, useRouteMatch } from 'react-router-dom';
 import AnnouncedSoon from '../../components/AnnouncedSoon';
 import { AuthorGuidelines } from '../../components/AuthorGuidelines/AuthorGuidelines';
+import { BestPaper } from '../../components/BestPaper';
 import PageContainer from '../../components/PageContainer';
 // import { Award } from '../../components/REO/Award';
 // import { Call } from '../../components/REO/Call';
@@ -21,6 +22,10 @@ const RewsAndOrgsPage = () => {
       to: `${url}/authorguidelines`
     },
     {
+      name: 'BEST PAPER AWARD',
+      to: `${url}/bestpaperaward`
+    },
+    {
       name: 'PROGRAMME SCHEDULE',
       to: `${url}/programmeschedule`
     },
@@ -35,6 +40,11 @@ const RewsAndOrgsPage = () => {
       name: 'AUTHOR GUIDELINES',
       path: `${path}/authorguidelines`,
       content: <AuthorGuidelines />
+    },
+    {
+      name: 'BEST PAPER AWARD',
+      path: `${path}/bestpaperaward`,
+      content: <BestPaper />
     },
     {
       name: 'AUTHOR GUIDELINES',
