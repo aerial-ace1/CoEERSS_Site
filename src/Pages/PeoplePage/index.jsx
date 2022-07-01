@@ -25,9 +25,9 @@ const PeoplePage = () => {
 
   const Content = [
     {
-      name: 'ADVISORY BOARD',
+      name: 'COMMITTEE',
       path: `${path}`,
-      content: <AdvisoryBoard />
+      content: <Committee />
     },
     {
       name: 'ADVISORY BOARD',

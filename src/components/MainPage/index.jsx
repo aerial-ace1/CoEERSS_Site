@@ -263,50 +263,55 @@ const MainPage = () => (
 
       </p>
       <br />
-      <h5>
-        Gold Sponsorship (INR 75,000 or above)
-      </h5>
-      <Image className="img-fluid m-3" src={gld} />
-      <ol>
-        <li>FOUR full conference registrations</li>
-        <li>Exhibits Space</li>
-        <li>A full page ad in the Conference Proceedings</li>
-        <li>A full page ad in the final conference program</li>
-        <li>Inclusion of your company logo in all conference advertising</li>
-        <li>Prominent signage identifying company as a Gold patron</li>
-        <li>Name and logo in our WWW advertising, linkage to your company website</li>
-        <li>Acknowledgement in opening address</li>
-      </ol>
-      <br />
-      <h5>
-        Silver Sponsorship (INR 50,000 or above)
-      </h5>
-      <Image className="img-fluid m-3" src={sil} />
-      <ol>
-        <li>TWO full conference registrations</li>
-        <li>Exhibits Space</li>
-        <li>A quarter page ad in the final conference program</li>
-        <li>Inclusion of your logo in all conference advertising</li>
-        <li>Prominent signage identifying company as a Silver patron</li>
-        <li>Name and logo in our WWW advertising, linkage to your company website</li>
-        <li>Acknowledgement in opening address</li>
+      <div className="row">
+        <div className="col-lg-4">
+          <h5 className="text-center">
+            Gold Sponsorship (INR 75,000 or above)
+          </h5>
+          <div className="text-center"><Image className="img-fluid m-3 text-center" src={gld} /></div>
+          <ol>
+            <li>FOUR full conference registrations</li>
+            <li>Exhibits Space</li>
+            <li>A full page ad in the Conference Proceedings</li>
+            <li>A full page ad in the final conference program</li>
+            <li>Inclusion of your company logo in all conference advertising</li>
+            <li>Prominent signage identifying company as a Gold patron</li>
+            <li>Name and logo in our WWW advertising, linkage to your company website</li>
+            <li>Acknowledgement in opening address</li>
+          </ol>
+        </div>
+        <div className="col-lg-4">
+          <h5 className="text-center">
+            Silver Sponsorship (INR 50,000 or above)
+          </h5>
+          <div className="text-center"><Image className="img-fluid m-3 text-center" src={sil} /></div>
+          <ol>
+            <li>TWO full conference registrations</li>
+            <li>Exhibits Space</li>
+            <li>A quarter page ad in the final conference program</li>
+            <li>Inclusion of your logo in all conference advertising</li>
+            <li>Prominent signage identifying company as a Silver patron</li>
+            <li>Name and logo in our WWW advertising, linkage to your company website</li>
+            <li>Acknowledgement in opening address</li>
 
-      </ol>
-      <br />
-      <h5>
-        Bronze Sponsorship ( INR  25,000 or above)
-      </h5>
-      <Image className="img-fluid m-3" src={brz} />
-      <ol>
-        <li>ONE full conference registration</li>
-        <li>Exhibits Space</li>
-        <li>A quarter page ad in the final conference program</li>
-        <li>Inclusion of the logo in all conference advertising</li>
-        <li>Prominent signage identifying company as a Bronze patron</li>
-        <li>Name and logo in our WWW advertising, linkage to the company website</li>
-        <li>Acknowledgement in opening address</li>
-      </ol>
-      <br />
+          </ol>
+        </div>
+        <div className="col-lg-4">
+          <h5 className="text-center">
+            Bronze Sponsorship ( INR  25,000 or above)
+          </h5>
+          <div className="text-center"><Image className="img-fluid m-3" src={brz} /></div>
+          <ol>
+            <li>ONE full conference registration</li>
+            <li>Exhibits Space</li>
+            <li>A quarter page ad in the final conference program</li>
+            <li>Inclusion of the logo in all conference advertising</li>
+            <li>Prominent signage identifying company as a Bronze patron</li>
+            <li>Name and logo in our WWW advertising, linkage to the company website</li>
+            <li>Acknowledgement in opening address</li>
+          </ol>
+        </div>
+      </div>
     </div>
   </div>
 

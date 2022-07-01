@@ -45,7 +45,6 @@ const TopNavbar = () => {
               </div>
             </div>
           </div>
-
         </Col>
         <Col lg={3} className="text-center d-flex justify-content-center brand">
           <img
@@ -61,6 +60,7 @@ const TopNavbar = () => {
         collapseOnSelect
         expand="lg"
         variant="dark"
+        id="nav"
       >
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -68,7 +68,7 @@ const TopNavbar = () => {
             <Nav.Link className={styles.colorWhite} onClick={() => history.push('/')}>
               HOME
             </Nav.Link>
-            <Nav.Link className={styles.colorWhite} onClick={() => history.push('/conference/lectures')}>
+            <Nav.Link className={styles.colorWhite} onClick={() => history.push('/conference/keynotelectures')}>
               CONFERENCE
             </Nav.Link>
             <Nav.Link className={styles.colorWhite} onClick={() => history.push('/callforpapers/topicsofinterest')}>
@@ -77,7 +77,7 @@ const TopNavbar = () => {
             <Nav.Link className={styles.colorWhite} onClick={() => history.push('/authorsandlisteners/authorguidelines')}>
               FOR AUTHORS AND LISTENERS
             </Nav.Link>
-            <Nav.Link className={styles.colorWhite} onClick={() => history.push('/people/advisoryboard')}>
+            <Nav.Link className={styles.colorWhite} onClick={() => history.push('/people/committee')}>
               PEOPLE
             </Nav.Link>
             <Nav.Link className={styles.colorWhite} onClick={() => history.push('/venue')}>

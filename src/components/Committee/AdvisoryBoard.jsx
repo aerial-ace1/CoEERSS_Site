@@ -89,7 +89,7 @@ export const AdvisoryBoard = () => (
             Indian Institute of Technology, Madras
           </ListGroup.Item>
           <ListGroup.Item>
-            <b>Boby George</b>
+            <b>Dr. Boby George</b>
             , Indian Institute of Technology Madras
           </ListGroup.Item>
           <ListGroup.Item>
