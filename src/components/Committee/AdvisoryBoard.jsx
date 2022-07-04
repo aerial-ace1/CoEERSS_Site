@@ -7,7 +7,7 @@ export const AdvisoryBoard = () => (
     <br />
     <Card className="text-center m-auto mt-3 mb-3">
       <Card.Header as="h4">
-        INTERNATIONAL
+        International
       </Card.Header>
       <Card.Body>
         <ListGroup variant="flush">

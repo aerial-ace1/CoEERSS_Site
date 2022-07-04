@@ -11,6 +11,7 @@ body {
   padding: 0;
   border: 0;
   height: 100%;
+  text-align: justify;
 }
 
 body::-webkit-scrollbar-track {

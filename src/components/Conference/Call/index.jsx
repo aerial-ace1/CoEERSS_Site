@@ -9,7 +9,7 @@ export const Call = () => (
       Topics of interest for submission include, but are not limited to:
     </p>
     <br />
-    <Card className="text-center m-auto mt-3 mb-3">
+    <Card className="m-auto mt-3 mb-3" style={{ maxWidth: '500px' }}>
       <Card.Header as="h4">
         Artificial Intelligence
       </Card.Header>
@@ -43,7 +43,7 @@ export const Call = () => (
         </ListGroup>
       </Card.Body>
     </Card>
-    <Card className="text-center m-auto mt-3 mb-3">
+    <Card className="m-auto mt-3 mb-3" style={{ maxWidth: '500px' }}>
       <Card.Header as="h4">
         Disaster Management, Prediction and Relief
       </Card.Header>
@@ -65,7 +65,7 @@ export const Call = () => (
         </ListGroup>
       </Card.Body>
     </Card>
-    <Card className="text-center m-auto mt-3 mb-3">
+    <Card className="m-auto mt-3 mb-3" style={{ maxWidth: '500px' }}>
       <Card.Header as="h4">
         System resource Management
       </Card.Header>
@@ -92,7 +92,7 @@ export const Call = () => (
         </ListGroup>
       </Card.Body>
     </Card>
-    <Card className="text-center m-auto mt-3 mb-3">
+    <Card className="m-auto mt-3 mb-3" style={{ maxWidth: '500px' }}>
       <Card.Header as="h4">
         Monitoring applications
       </Card.Header>
@@ -115,7 +115,7 @@ export const Call = () => (
         </ListGroup>
       </Card.Body>
     </Card>
-    <Card className="text-center m-auto mt-3 mb-3">
+    <Card className="m-auto mt-3 mb-3" style={{ maxWidth: '500px' }}>
       <Card.Header as="h4">
         Emergency Response and Emergency Rescue
       </Card.Header>
