@@ -6,6 +6,7 @@ import i3 from './assets/image3.jpg';
 import i4 from './assets/image4.png';
 import i5 from './assets/image5.jpg';
 import i6 from './assets/image6.jpg';
+import i7 from './assets/image7.png';
 
 export const KeynoteSpeakers = () => (
   <div>
@@ -41,6 +42,11 @@ export const KeynoteSpeakers = () => (
         <img alt="" style={{ borderRadius: '50%', width: '200px', height: '200px' }} src={i5} />
         <br />
         Dr. S. Kumaravel, Professor, Thanjavur Medical College
+      </div>
+      <div className="text-center m-5 fw-bold col">
+        <img alt="" style={{ borderRadius: '50%', width: '200px', height: '200px' }} src={i7} />
+        <br />
+        Dr. Chung-Horng Lung, Professor, Carleton University, Ottawa, Canada
       </div>
     </div>
   </div>

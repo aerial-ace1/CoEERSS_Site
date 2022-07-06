@@ -206,12 +206,11 @@ export const Apply = () => (
       <li>
         Go to the SBI-collect using the link:
         {' '}
-        Will be updated
-        {/* <a href="https://www.onlinesbi.com/sbicollect/icollecthome.htm">Link</a> */}
+        <a href="https://www.onlinesbi.com/sbicollect/icollecthome.htm">Link</a>
       </li>
       <li>Select the state as ‘Tamil Nadu’, and category as ‘Educational Institutions’.</li>
       <li>Select “Conference and Workshop NIT Trichy”.</li>
-      <li>Select payment category as “Name of the Conference”.</li>
+      <li>Select payment category as “ISERDM 2023 ICE”.</li>
       <li>Make payment through UPI/ Net Banking/ Credit card/ NEFT.</li>
       <li>
         Once the fee is paid, fill up your details and upload the

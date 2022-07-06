@@ -29,6 +29,10 @@ export const TechnicalBoard = () => (
             , University of Saskatchewan, Canada
           </ListGroup.Item>
           <ListGroup.Item>
+            <b>Dr. Chung-Horng Lung</b>
+            , Carleton University, Ottawa, Canada
+          </ListGroup.Item>
+          <ListGroup.Item>
             <b>Dr. Muhammad Fazal Ijaz</b>
             , Sejong University, Sejong
             {' '}
