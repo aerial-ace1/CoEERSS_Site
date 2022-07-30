@@ -5,6 +5,7 @@ import PageContainer from '../../components/PageContainer';
 // import { Apply } from '../../components/Conference/Apply';
 import AnnouncedSoon from '../../components/AnnouncedSoon';
 import { KeynoteSpeakers } from '../../components/KeynoteSpeakers';
+import { TutorialSpeakers } from '../../components/TutorialSpeakers';
 
 const Filler = ({ title, text }) => (
   <div>
@@ -48,7 +49,7 @@ const ConferencePage = () => {
     {
       name: 'TUTORIAL SPEAKERS',
       path: `${path}/tutorialspeakers`,
-      content: <Filler title="TUTORIAL SPEAKERS" text="Will be updated" />
+      content: <TutorialSpeakers />
     }
   ].map((link) => (
     <Route key={link.path} exact path={link.path}>

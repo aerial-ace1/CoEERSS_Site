@@ -3,11 +3,11 @@
 }
 
 .main-page > .carousel {
-  height: 40vh;
+  height: 50vh;
 }
 
 .main-page .car-img {
-  height: 40vh;
+  height: 50vh;
   width: 100%;
   object-fit: cover;
 }

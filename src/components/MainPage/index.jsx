@@ -32,6 +32,16 @@ const MainPage = () => (
           <h3>CDAC</h3>
         </Carousel.Caption>
       </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="car-img"
+          src="https://lh4.googleusercontent.com/hOe_L_XjgFBagMsJJJtPgKBCkkql5BMCaclLDcoGhbEloUBQgC9kROu4ebOuJETgqeLVO0HRp3m_orkvPaQvw9k9MKTgczSIbiIVXUrI1g-ghvMwbOpBMeqV1E7O1G9Chqs2xsvychRceK3Z3kiKRng"
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+          <h3>Mukambo and Cauvery flow, Trichy</h3>
+        </Carousel.Caption>
+      </Carousel.Item>
     </Carousel>
     <div className="container mt-5">
       <h1>
