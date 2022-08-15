@@ -27,7 +27,16 @@ export const ImportantDates = () => (
           <div className="date-outer">
             <span className="date">
               <span className="month">
-                August 15
+                <span style={{
+                  textDecoration: 'line-through',
+                  color: 'red'
+                }}
+                >
+                  Aug 15
+                  <sup>th</sup>
+                </span>
+                <br />
+                <span>Sept 15</span>
                 <sup>th</sup>
               </span>
               <span className="year">2022</span>
@@ -44,7 +53,7 @@ export const ImportantDates = () => (
           <div className="date-outer">
             <span className="date">
               <span className="month">
-                October 30
+                Oct 30
                 <sup>th</sup>
               </span>
               <span className="year">2022</span>
@@ -61,7 +70,7 @@ export const ImportantDates = () => (
           <div className="date-outer">
             <span className="date">
               <span className="month">
-                November 15
+                Nov 15
                 <sup>th</sup>
               </span>
               <span className="year">2022</span>
@@ -80,7 +89,7 @@ export const ImportantDates = () => (
           <div className="date-outer">
             <span className="date">
               <span className="month">
-                November 20
+                Nov 20
                 <sup>th</sup>
               </span>
               <span className="year">2022</span>
