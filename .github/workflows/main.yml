@@ -45,5 +45,4 @@ jobs:
           git checkout .
           git fetch origin
           git reset --hard origin/prod
-          npm i
           npm run build

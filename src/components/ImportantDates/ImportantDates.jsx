@@ -36,7 +36,7 @@ export const ImportantDates = () => (
                   <sup>th</sup>
                 </span>
                 <br />
-                <span>Sept 15</span>
+                <span>Oct 15</span>
                 <sup>th</sup>
               </span>
               <span className="year">2022</span>
