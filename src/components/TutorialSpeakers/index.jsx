@@ -1,6 +1,6 @@
 import React from 'react';
 
-import i1 from './assets/img-0.png';
+import i1 from './assets/img-0.jpeg';
 import i2 from './assets/img-1.jpg';
 
 export const TutorialSpeakers = () => (
