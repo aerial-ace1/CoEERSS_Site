@@ -68,6 +68,9 @@ const TopNavbar = () => {
             <Nav.Link className={styles.colorWhite} onClick={() => history.push('/')}>
               HOME
             </Nav.Link>
+            <Nav.Link className={styles.colorWhite} onClick={() => history.push('/gallery')}>
+              GALLERY
+            </Nav.Link>
             <Nav.Link className={styles.colorWhite} onClick={() => history.push('/conference/keynotelectures')}>
               CONFERENCE
             </Nav.Link>

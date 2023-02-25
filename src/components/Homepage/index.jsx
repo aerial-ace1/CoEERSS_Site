@@ -9,7 +9,8 @@ import {
   RewsAndOrgsPage,
   PeoplePage,
   VenuePage,
-  ContactPage
+  ContactPage,
+  GalleryPage
   // PastConferencesPage
 } from '../../Pages';
 import { Footer } from '../Footer/Footer';
@@ -20,6 +21,11 @@ export const Homepage = () => {
       name: 'CONFERENCE',
       url: '/conference',
       getPage: () => <ConferencePage />
+    },
+    {
+      name: 'GALLERY',
+      url: '/gallery',
+      getPage: () => <GalleryPage />
     },
     {
       name: 'CALL FOR PAPERS',
@@ -46,6 +52,7 @@ export const Homepage = () => {
       url: '/contact',
       getPage: () => <ContactPage />
     }
+
     // {
     //   name: 'PAST CONFERENCES',
     //   url: '/pastconferences',
