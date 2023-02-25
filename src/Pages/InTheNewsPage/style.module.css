@@ -1,0 +1,9 @@
+.newsBox {
+  padding: 2rem 1rem;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem 2rem;
+}

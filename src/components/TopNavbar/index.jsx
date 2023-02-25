@@ -95,6 +95,9 @@ const TopNavbar = () => {
               >
                 PAST CONFERENCES
               </Nav.Link> */}
+            <Nav.Link className={styles.colorWhite} onClick={() => history.push('/inthenews')}>
+              IN THE NEWS
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
