@@ -59,7 +59,7 @@ const TopNavbar = () => {
         className={styles.header}
         collapseOnSelect
         expand="lg"
-        variant="dark"
+        variant="light"
         id="nav"
       >
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
