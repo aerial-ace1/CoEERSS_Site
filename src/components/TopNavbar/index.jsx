@@ -23,7 +23,7 @@ const TopNavbar = () => {
         <Col lg={6}>
           <div className={styles.title}>
             <div>
-              <h2>CoEERS-2023</h2>
+              <h2>CoEERSS-2023</h2>
               <h4>First International Conference on</h4>
               <h6>
                 The Centre of Excellence in Emergency Response Support System

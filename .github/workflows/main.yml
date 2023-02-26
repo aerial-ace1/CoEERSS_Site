@@ -41,7 +41,7 @@ jobs:
         username: headhav
         password: ${{ secrets.PASSWORD }}
         script: |
-          cd CoEERS_Site-2023
+          cd CoEERSS_Site-2023
           git checkout .
           git fetch origin
           git reset --hard origin/prod
