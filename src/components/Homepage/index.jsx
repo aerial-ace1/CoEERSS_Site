@@ -10,7 +10,8 @@ import {
   PeoplePage,
   VenuePage,
   ContactPage,
-  GalleryPage
+  GalleryPage,
+  InTheNews
   // PastConferencesPage
 } from '../../Pages';
 import { Footer } from '../Footer/Footer';
@@ -51,13 +52,18 @@ export const Homepage = () => {
       name: 'CONTACT',
       url: '/contact',
       getPage: () => <ContactPage />
-    }
+    },
 
     // {
     //   name: 'PAST CONFERENCES',
     //   url: '/pastconferences',
     //   getPage: () => <PastConferencesPage />
     // }
+    {
+      name: 'IN THE NEWS',
+      url: '/inthenews',
+      getPage: () => <InTheNews />
+    }
   ];
   return (
     <div className={styles.homePage}>

@@ -8,8 +8,6 @@ function importAll(r) {
   });
 }
 importAll(require.context('./assets', false, /\.jpg$/));
-console.log(images);
-
 // In your JSX component, you can access the images like this:
 
 // In your JSX component, you can access the images like this:
@@ -19,7 +17,7 @@ const GalleryPage = () => (
     <h1 className={styles.heading}>Gallery</h1>
     <div className={styles.gridContainer}>
       {Object.keys(images).map((key) => (
-        <img className={styles.gridItem} src={images[key]} alt="gallery" draggable="false" />
+        <img className={styles.gridItem} key={key} src={images[key]} alt="gallery" draggable="false" />
       ))}
     </div>
   </div>
