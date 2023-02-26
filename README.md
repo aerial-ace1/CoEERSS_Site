@@ -1,3 +1,3 @@
-# ISERDM-2023
+# CoEERSS-2023
 
-A website for ISERDM-2023 conference
+A website for CoEERSS-2023 conference
