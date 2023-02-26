@@ -12,7 +12,7 @@ const TopNavbar = () => {
   return (
     <>
 
-      <div className="row m-auto color-brown" style={{ backgroundColor: '#6e3df6', color: 'white' }}>
+      <div className="row m-auto color-brown" style={{ backgroundColor: '#962B07', color: 'white' }}>
         <Col lg={3} className="text-center d-flex justify-content-center brand">
           <img
             className={`${styles.nittLogo}`}
@@ -23,16 +23,16 @@ const TopNavbar = () => {
         <Col lg={6}>
           <div className={styles.title}>
             <div>
-              <h2>CoEERSS-2023</h2>
-              <h4>First International Conference on</h4>
+              <h2>CoEERSS</h2>
+              {/* <h4>First International Conference on</h4> */}
               <h6>
                 The Centre of Excellence in Emergency Response Support System
                 <br />
-                Jointly organized by NIT, Tiruchirappalli and CDAC, Trivandrum
+                {/* Jointly organized by NIT, Tiruchirappalli and CDAC, Trivandrum */}
 
               </h6>
               <div style={{ wordBreak: 'break-all' }}>
-                <h6>
+                {/* <h6>
                   9
                   <sup>th</sup>
                   {' '}
@@ -41,7 +41,7 @@ const TopNavbar = () => {
                   <sup>th</sup>
                   {' '}
                   January 2023
-                </h6>
+                </h6> */}
               </div>
             </div>
           </div>
@@ -80,12 +80,15 @@ const TopNavbar = () => {
             <Nav.Link className={styles.colorWhite} onClick={() => history.push('/events/events')}>
               EVENTS
             </Nav.Link>
-            <Nav.Link className={styles.colorWhite} onClick={() => history.push('/callforpapers/topicsofinterest')}>
+            {/*
+            <Nav.Link className={styles.colorWhite} onClick={() =>
+            history.push('/callforpapers/topicsofinterest')}>
               CALL FOR PAPERS
             </Nav.Link>
-            <Nav.Link className={styles.colorWhite} onClick={() => history.push('/authorsandlisteners/authorguidelines')}>
+            <Nav.Link className={styles.colorWhite} onClick={() =>
+            history.push('/authorsandlisteners/authorguidelines')}>
               FOR AUTHORS AND LISTENERS
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link className={styles.colorWhite} onClick={() => history.push('/people/committee')}>
               PEOPLE
             </Nav.Link>

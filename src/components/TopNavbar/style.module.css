@@ -5,12 +5,12 @@
   transition: all 0.7s ease-in-out;
   padding: 15px 5px;
   backdrop-filter: blur(1px);
-  box-shadow: 0 5px 5px #6e3df6;
+  box-shadow: 0 5px 5px #962b07;
   z-index: 100;
 }
 
 .color-brown {
-  background-color: #6e3df6 !important;
+  background-color: #962b07 !important;
 }
 
 .navbar {
@@ -29,12 +29,12 @@
 }
 
 .colorWhite {
-  color: #6e3df6 !important;
-  font-weight: bold;
+  color: #962b07 !important;
+  font-weight: 800;
 }
 
 .colorWhite:hover {
-  border-bottom: 1px solid #6e3df6 !important;
+  border-bottom: 1px solid #962b07 !important;
 }
 
 .brand {

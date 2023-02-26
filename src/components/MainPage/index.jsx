@@ -1,13 +1,14 @@
 import React from 'react';
 import './style.css';
 import {
-  Carousel, Image
+  Carousel
+  // Image
 } from 'react-bootstrap';
-import { ImportantDates } from '../ImportantDates/ImportantDates';
-import { BestPaper } from '../BestPaper';
-import brz from './assets/brz.png';
-import sil from './assets/sil.png';
-import gld from './assets/gld.png';
+// import { ImportantDates } from '../ImportantDates/ImportantDates';
+// import { BestPaper } from '../BestPaper';
+// import brz from './assets/brz.png';
+// import sil from './assets/sil.png';
+// import gld from './assets/gld.png';
 
 const MainPage = () => (
   <div className="main-page">
@@ -196,7 +197,7 @@ const MainPage = () => (
         to Technology partners for large-scale production.
       </p>
 
-      <h1>
+      {/* <h1>
         Proceedings of ISERDM
       </h1>
       <div className="image-container">
@@ -213,7 +214,7 @@ const MainPage = () => (
       <h1>
         Important Dates
       </h1>
-      <ImportantDates />
+      <ImportantDates /> */}
       {/* <h1>
         Annual Theme
       </h1>
@@ -242,7 +243,7 @@ const MainPage = () => (
         </Card.Body>
       </Card>
       <br /> */}
-      <BestPaper />
+      {/* <BestPaper />
       <h1>
         Technical Co-Sponsors
       </h1>
@@ -278,7 +279,8 @@ const MainPage = () => (
           <h5 className="text-center">
             Gold Sponsorship (INR 75,000 or above)
           </h5>
-          <div className="text-center"><Image className="img-fluid m-3 text-center" src={gld} /></div>
+          <div className="text-center"><Image className="img-fluid m-3
+          text-center" src={gld} /></div>
           <ol>
             <li>FOUR full conference registrations</li>
             <li>Exhibits Space</li>
@@ -294,7 +296,8 @@ const MainPage = () => (
           <h5 className="text-center">
             Silver Sponsorship (INR 50,000 or above)
           </h5>
-          <div className="text-center"><Image className="img-fluid m-3 text-center" src={sil} /></div>
+          <div className="text-center"><Image className="img-fluid m-3
+          text-center" src={sil} /></div>
           <ol>
             <li>TWO full conference registrations</li>
             <li>Exhibits Space</li>
@@ -320,8 +323,8 @@ const MainPage = () => (
             <li>Name and logo in our WWW advertising, linkage to the company website</li>
             <li>Acknowledgement in opening address</li>
           </ol>
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
     </div>
   </div>
 

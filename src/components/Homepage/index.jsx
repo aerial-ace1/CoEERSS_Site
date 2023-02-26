@@ -4,9 +4,9 @@ import TopNavbar from '../TopNavbar';
 import styles from './style.module.css';
 import MainPage from '../MainPage';
 import {
-  AuthorsAndListenersPage,
+  // AuthorsAndListenersPage,
   ConferencePage,
-  RewsAndOrgsPage,
+  // RewsAndOrgsPage,
   PeoplePage,
   VenuePage,
   ContactPage,
@@ -29,16 +29,16 @@ export const Homepage = () => {
       url: '/gallery',
       getPage: () => <GalleryPage />
     },
-    {
-      name: 'CALL FOR PAPERS',
-      url: '/callforpapers',
-      getPage: () => <AuthorsAndListenersPage />
-    },
-    {
-      name: 'FOR AUTHORS AND LISTENERS',
-      url: '/authorsandlisteners',
-      getPage: () => <RewsAndOrgsPage />
-    },
+    // {
+    //   name: 'CALL FOR PAPERS',
+    //   url: '/callforpapers',
+    //   getPage: () => <AuthorsAndListenersPage />
+    // },
+    // {
+    //   name: 'FOR AUTHORS AND LISTENERS',
+    //   url: '/authorsandlisteners',
+    //   getPage: () => <RewsAndOrgsPage />
+    // },
     {
       name: 'PEOPLE',
       url: '/people',
