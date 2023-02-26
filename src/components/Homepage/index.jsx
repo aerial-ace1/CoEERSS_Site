@@ -79,7 +79,7 @@ export const Homepage = () => {
   ];
   return (
     <div className={styles.homePage}>
-      <Router>
+      <Router basename="/CoEERSS_Site">
         <div className={styles.topNavBarContainer}>
           <TopNavbar />
         </div>
