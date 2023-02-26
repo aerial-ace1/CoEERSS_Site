@@ -1,6 +1,7 @@
 {
   "name": "coeerss",
   "version": "0.1.0",
+  "homepage": "https://aerial-ace1.github.io/CoEERSS_Site/",
   "private": true,
   "dependencies": {
     "bootstrap": "^5.1.3",
