@@ -1,0 +1,35 @@
+.gridContainer {
+  box-sizing: border-box;
+  padding: 1em;
+  column-count: 3;
+}
+
+.gridItem {
+  box-sizing: border-box;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  width: 100%;
+  transition: 0.25s;
+  border-radius: 10px;
+}
+
+.gridItem:hover {
+  transform: scale(1.02);
+  transition: 0.25s;
+}
+
+.heading {
+  padding: 0.5em;
+}
+
+@media only screen and (max-width: 1000px) {
+  .gridContainer {
+    column-count: 2;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .gridContainer {
+    column-count: 1;
+  }
+}
