@@ -11,7 +11,8 @@ import {
   VenuePage,
   ContactPage,
   GalleryPage,
-  InTheNews
+  InTheNews,
+  Events
   // PastConferencesPage
 } from '../../Pages';
 import { Footer } from '../Footer/Footer';
@@ -63,6 +64,11 @@ export const Homepage = () => {
       name: 'IN THE NEWS',
       url: '/inthenews',
       getPage: () => <InTheNews />
+    },
+    {
+      name: 'EVENTS',
+      url: '/events',
+      getPage: () => <Events />
     }
   ];
   return (

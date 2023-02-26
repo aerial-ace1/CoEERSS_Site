@@ -7,3 +7,4 @@ export { default as VenuePage } from './VenuePage';
 export { default as ContactPage } from './ContactPage';
 export { default as GalleryPage } from './GalleryPage';
 export { default as InTheNews } from './InTheNewsPage';
+export { default as Events } from './EventsPage';

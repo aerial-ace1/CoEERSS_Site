@@ -23,10 +23,10 @@ const TopNavbar = () => {
         <Col lg={6}>
           <div className={styles.title}>
             <div>
-              <h2>ISERDM-2023</h2>
+              <h2>CoEERS-2023</h2>
               <h4>First International Conference on</h4>
               <h6>
-                Intelligent Solutions for Emergency Response and Disaster Management
+                The Centre of Excellence in Emergency Response Support System
                 <br />
                 Jointly organized by NIT, Tiruchirappalli and CDAC, Trivandrum
 
@@ -71,8 +71,14 @@ const TopNavbar = () => {
             <Nav.Link className={styles.colorWhite} onClick={() => history.push('/gallery')}>
               GALLERY
             </Nav.Link>
+            <Nav.Link className={styles.colorWhite} onClick={() => history.push('/inthenews')}>
+              IN THE NEWS
+            </Nav.Link>
             <Nav.Link className={styles.colorWhite} onClick={() => history.push('/conference/keynotelectures')}>
               CONFERENCE
+            </Nav.Link>
+            <Nav.Link className={styles.colorWhite} onClick={() => history.push('/events/events')}>
+              EVENTS
             </Nav.Link>
             <Nav.Link className={styles.colorWhite} onClick={() => history.push('/callforpapers/topicsofinterest')}>
               CALL FOR PAPERS
@@ -95,9 +101,6 @@ const TopNavbar = () => {
               >
                 PAST CONFERENCES
               </Nav.Link> */}
-            <Nav.Link className={styles.colorWhite} onClick={() => history.push('/inthenews')}>
-              IN THE NEWS
-            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
