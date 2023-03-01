@@ -46,21 +46,12 @@ const MainPage = () => (
     </Carousel>
     <div className="container mt-5">
       <h1>
-        About the Conference
+        Home
       </h1>
       <p>
-
-        The International Conference on “
-        <b>Intelligent Solutions for Emergency Support and Disaster Management</b>
-        ,” jointly Organized by CoE in Emergency Response Support System (ERSS)/
-        National Institute of Technology Tiruchirappalli, and Centre for
-        Development of Advanced Computing (CDAC),
-        Trivandrum, is deliberated to step in widening the knowledge of Sustainable
-        development through the participation of researchers, academicians,
-        and professionals from all over India.
-      </p>
-      <p>
-        Emergency Response Support System (ERSS) is a Pan-India single number
+        <b>Emergency Response Support System (ERSS)</b>
+        {' '}
+        is a Pan-India single number
         (112) based emergency response system for citizens in emergencies.
         The Emergency Response Centre is capable of receiving emergency calls
         through voice call to 112, email, panic buttons activated calls and 112
@@ -116,7 +107,7 @@ const MainPage = () => (
         loss of lives while at the same time make rescue efforts easy and efficient.
 
       </p>
-      <p>
+      {/* <p>
         The main goal of this conference is to share and discuss solutions to
         Emergency Support and Disaster Management through Intelligence.
         The significance of this conference lies in the pressing need for the integration of
@@ -128,8 +119,52 @@ const MainPage = () => (
         in emergency support and disaster management.
         This conference provides opportunities to interact with prominent peoples
         in the field and immensely expand the network of scholars and professionals.
+      </p> */}
+      <h1>
+        About ERSS
+      </h1>
+      <p>
+        Emergency Response Support System (ERSS) is the vision of Govt. of
+        India to launch an integrated emergency response system with a single
+        emergency number 112, to address different emergencies of citizens. ERSS
+        is designed to address all emergency signals received from citizens through
+        voice call, SMS, e-mail, panic SOS signal, ERSS web portal etc.
+      </p>
+      <p>
+        ERSS tracks the rescue and service vehicles of all services (Police, Fire, Health etc.)
+        in real-time on a digital map of the State/UT and hence it will be possible to direct
+        the right vehicle(s) to reach the service requestor and provide necessary support
+        immediately.
+      </p>
+      <p>
+        The CoE in ERSS at National Institute of Technology, Tiruchirappalli, operates
+        with a primary focus on setting up an automated facility for emergency purpose
+        in the capital cities of all States and UTs, called Public Safety Answering Point
+        (PSAP), will handle all the emergency signals and provide assistance available to the
+        people in distress within the best possible time with the help of Police, Fire & Rescue,
+        Health services etc. This multi-faceted unique center offers skill development courses,
+        Internships, Research and Development assistance across various sectors.
       </p>
       <br />
+      <h1>
+        Inauguration
+      </h1>
+      <p>
+        The Centre of Excellence in Emergency Response Support System (CoEERSS) was inaugurated
+        by Dr. C. Sylendra Babu, IPS, Director General of Police, Tamil Nadu today in the campus
+        of NIT-Tiruchirappalli.
+      </p>
+      <p>
+        Dr. N. Sivakumaran, Professor and Head, CoEERSS welcomed the gathering;  Mr. Kalai Selvan
+        A, Director, C-DAC, Thiruvananthapuram was a Special Guest; Mr. Magesh Ethirajan, Director
+        General, C-DAC was the Guest of Honour; Dr. Ramakalyan Ayyagari, Dean (Academic),
+        NIT-Tiruchirappalli delivered the Presidential Address; Dr. C. Sylendra Babu IPS, Director
+        General of Police, Tamil Nadu was the Chief Guest. He formally inaugurated the Centre
+        of Excellence in ERSS, following which, he delivered the Inaugural address. He later
+        distributed the prizes for a Hackathon event conducted recently as part of a conference
+        in NIT-Tiruchirappalli, and interacted with the prize winners. The Vote of Thanks was
+        delivered by Dr. Shishaj P. Simon, Professor, department of EEE, NIT-Tiruchirappalli.
+      </p>
       <h1>
         About NITT
       </h1>
@@ -143,36 +178,6 @@ const MainPage = () => (
         in ten branches and Post Graduate Courses in twenty-one disciplines of Science,
         Engineering & Technology besides M.S. (by Research) and Ph.D. in all the departments.
       </p>
-      <br />
-      <h1>
-        ABOUT THE COE in EMERGENCY RESPONSE SUPPORT SYSTEM @ NIT, TIRUCHIRAPPALLI
-      </h1>
-      <p>
-
-        Emergency Response Support System (ERSS) is the vision of Govt.
-        of India to launch an integrated emergency response system with a
-        single emergency number 112, to address different emergencies of citizens.
-        ERSS is designed to address all emergency signals received from citizens
-        through voice call, SMS, e-mail, panic SOS signal, ERSS web portal etc.
-      </p>
-      <p>
-        ERSS tracks the rescue and service vehicles of all services
-        (Police, Fire, Health etc.) in real-time on a digital map of
-        the State/UT and hence it will be possible to direct the right vehicle(s)
-        to reach the service requestor and provide necessary support immediately.
-      </p>
-      <p>
-        The CoE in ERSS at National Institute of Technology, Tiruchirappalli,
-        operates with a primary focus on setting up an automated facility for
-        emergency purpose in the capital cities of all States and UTs, called
-        Public Safety Answering Point (PSAP), will handle all the emergency
-        signals and provide assistance available to the people in distress within
-        the best possible time with the help of Police, Fire & Rescue,
-        Health services etc. This multi-faceted unique center offers skill
-        development courses, Internships, Research and Development assistance
-        across various sectors.
-      </p>
-
       <br />
       <h1>
         ABOUT  CDAC, TRIVANDRUM
