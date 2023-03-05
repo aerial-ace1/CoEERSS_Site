@@ -9,9 +9,6 @@ function importAll(r) {
   });
 }
 importAll(require.context('./assets', false, /\.jpg$/));
-// In your JSX component, you can access the images like this:
-
-// In your JSX component, you can access the images like this:
 
 const GalleryPage = () => (
   <div className={styles.box}>
@@ -30,7 +27,7 @@ export function GalleryCarousel() {
   return (
     <Carousel variant="dark" style={{ width: 'min(80%,30rem)' }}>
       {Object.keys(images).map((key) => (
-        <Carousel.Item>
+        <Carousel.Item key={key}>
           <img style={{ width: 'min(100%,30rem)', aspectRatio: '1/1', overflow: 'clip' }} className={styles.gridItem} key={key} src={images[key]} alt="gallery" draggable="false" />
         </Carousel.Item>
       ))}

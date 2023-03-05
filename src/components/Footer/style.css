@@ -1,22 +1,19 @@
-.site-footer .footer-col > a {
+.page-footer div div a,
+.page-footer div div {
   color: #fff;
   text-decoration: none;
 }
 
-.site-footer .footer-col > a:hover {
-  color: #00f;
+.page-footer div div a:hover {
+  color: rgb(175 181 185);
   text-decoration: underline;
 }
 
-.bg-red {
+.page-footer h5 {
+  color: #d1aeae;
+}
+
+.page-footer {
+  padding: 4rem 1rem;
   background-color: #962b07;
-  color: #fff;
-}
-
-.site-footer .footer-col {
-  padding: 20px;
-}
-
-.site-footer .footer-col h3 {
-  color: #fff;
 }
