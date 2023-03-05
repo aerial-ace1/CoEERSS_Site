@@ -4,6 +4,8 @@ import {
   Carousel
   // Image
 } from 'react-bootstrap';
+import { GalleryCarousel } from '../../Pages/GalleryPage';
+import { InTheNewsCar } from '../../Pages/InTheNewsPage';
 // import { ImportantDates } from '../ImportantDates/ImportantDates';
 // import { BestPaper } from '../BestPaper';
 // import brz from './assets/brz.png';
@@ -146,6 +148,8 @@ const MainPage = () => (
         Internships, Research and Development assistance across various sectors.
       </p>
       <br />
+      <GalleryCarousel />
+      <InTheNewsCar />
       <h1>
         Inauguration
       </h1>

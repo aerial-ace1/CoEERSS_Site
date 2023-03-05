@@ -8,3 +8,30 @@
   justify-content: center;
   gap: 1rem 2rem;
 }
+
+.newsBoxScroll {
+  padding: 2rem 1rem;
+  width: 100%;
+  overflow-y: clip;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem 2rem;
+}
+
+.newsBoxScroll > div {
+  width: 40rem !important;
+}
+
+.newsBoxScroll > div > img {
+  height: 200px;
+  aspect-ratio: 1/1;
+  overflow: clip;
+}
+
+.newsBoxScroll > div > div > p {
+  height: 200px;
+  overflow: clip;
+  text-align: center;
+}
