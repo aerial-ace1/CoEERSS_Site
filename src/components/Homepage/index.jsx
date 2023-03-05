@@ -16,6 +16,7 @@ import {
   // PastConferencesPage
 } from '../../Pages';
 import { Footer } from '../Footer/Footer';
+import About from '../../Pages/ERSSPage';
 
 export const Homepage = () => {
   const routes = [
@@ -69,6 +70,11 @@ export const Homepage = () => {
       name: 'EVENTS',
       url: '/events',
       getPage: () => <Events />
+    },
+    {
+      name: 'ABOUT',
+      url: '/about',
+      getPage: () => <About />
     }
   ];
   return (

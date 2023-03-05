@@ -24,25 +24,10 @@ const TopNavbar = () => {
           <div className={styles.title}>
             <div>
               <h2>CoEERSS</h2>
-              {/* <h4>First International Conference on</h4> */}
               <h6>
                 The Centre of Excellence in Emergency Response Support System
                 <br />
-                {/* Jointly organized by NIT, Tiruchirappalli and CDAC, Trivandrum */}
-
               </h6>
-              <div style={{ wordBreak: 'break-all' }}>
-                {/* <h6>
-                  9
-                  <sup>th</sup>
-                  {' '}
-                  -
-                  11
-                  <sup>th</sup>
-                  {' '}
-                  January 2023
-                </h6> */}
-              </div>
             </div>
           </div>
         </Col>
@@ -68,6 +53,9 @@ const TopNavbar = () => {
             <Nav.Link className={styles.colorWhite} onClick={() => history.push('/')}>
               HOME
             </Nav.Link>
+            <Nav.Link className={styles.colorWhite} onClick={() => history.push('/about/erss')}>
+              ABOUT
+            </Nav.Link>
             <Nav.Link className={styles.colorWhite} onClick={() => history.push('/gallery')}>
               GALLERY
             </Nav.Link>
@@ -80,15 +68,6 @@ const TopNavbar = () => {
             <Nav.Link className={styles.colorWhite} onClick={() => history.push('/events/events')}>
               EVENTS
             </Nav.Link>
-            {/*
-            <Nav.Link className={styles.colorWhite} onClick={() =>
-            history.push('/callforpapers/topicsofinterest')}>
-              CALL FOR PAPERS
-            </Nav.Link>
-            <Nav.Link className={styles.colorWhite} onClick={() =>
-            history.push('/authorsandlisteners/authorguidelines')}>
-              FOR AUTHORS AND LISTENERS
-            </Nav.Link> */}
             <Nav.Link className={styles.colorWhite} onClick={() => history.push('/people/committee')}>
               PEOPLE
             </Nav.Link>
@@ -98,12 +77,6 @@ const TopNavbar = () => {
             <Nav.Link className={styles.colorWhite} onClick={() => history.push('/contact')}>
               CONTACT
             </Nav.Link>
-            {/* <Nav.Link
-                className={styles.colorWhite}
-                onClick={() => history.push('/pastconferences')}
-              >
-                PAST CONFERENCES
-              </Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Navbar>

@@ -26,3 +26,17 @@
 .main-page .image-container {
   text-align: center;
 }
+
+.homepage-alt1 {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.homepage-alt2 {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  align-items: center;
+  justify-content: space-around;
+}

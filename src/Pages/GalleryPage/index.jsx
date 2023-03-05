@@ -28,10 +28,10 @@ export default GalleryPage;
 
 export function GalleryCarousel() {
   return (
-    <Carousel variant="dark" style={{ height: '30rem', overflowY: 'clip' }}>
+    <Carousel variant="dark" style={{ width: 'min(80%,30rem)' }}>
       {Object.keys(images).map((key) => (
         <Carousel.Item>
-          <img className={styles.gridItem} key={key} src={images[key]} alt="gallery" draggable="false" />
+          <img style={{ width: 'min(100%,30rem)', aspectRatio: '1/1', overflow: 'clip' }} className={styles.gridItem} key={key} src={images[key]} alt="gallery" draggable="false" />
         </Carousel.Item>
       ))}
     </Carousel>

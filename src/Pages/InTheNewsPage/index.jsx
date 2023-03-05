@@ -31,8 +31,19 @@ const InTheNews = () => (
 
 export default InTheNews;
 
-export const InTheNewsCar = () => (
-  <div className={styles.newsBoxScroll}>
-    {newsItems.map((newsItem) => (<NewsCard key={newsItem.image} newsItem={newsItem} />))}
-  </div>
-);
+export const InTheNewsCar = () => {
+  const [count, setCount] = React.useState(0);
+
+  React.useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCount((prevCount) => (prevCount + 1) % newsItems.length);
+    }, 2000);
+    return () => clearInterval(intervalId);
+  }, []);
+
+  return (
+    <div className={styles.newsBoxScroll}>
+      <NewsCard key={newsItems[count].image} newsItem={newsItems[count]} />
+    </div>
+  );
+};
