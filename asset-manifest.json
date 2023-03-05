@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CoEERSS_Site/static/css/main.049967eb.css",
-    "main.js": "/CoEERSS_Site/static/js/main.d86f9b20.js",
+    "main.css": "/CoEERSS_Site/static/css/main.8dd85c5c.css",
+    "main.js": "/CoEERSS_Site/static/js/main.9a69a1c8.js",
     "static/media/1.png": "/CoEERSS_Site/static/media/1.ada9ae97cba31a0dd062.png",
     "static/media/2.png": "/CoEERSS_Site/static/media/2.7786ac0d098d7c8ec9fd.png",
     "static/media/3.png": "/CoEERSS_Site/static/media/3.7d07787329c8f452b894.png",
@@ -41,11 +41,11 @@
     "static/media/image7.png": "/CoEERSS_Site/static/media/image7.12a0cacda29c22242e22.png",
     "static/media/image1.png": "/CoEERSS_Site/static/media/image1.32d21d4e1c8eee4977dc.png",
     "index.html": "/CoEERSS_Site/index.html",
-    "main.049967eb.css.map": "/CoEERSS_Site/static/css/main.049967eb.css.map",
-    "main.d86f9b20.js.map": "/CoEERSS_Site/static/js/main.d86f9b20.js.map"
+    "main.8dd85c5c.css.map": "/CoEERSS_Site/static/css/main.8dd85c5c.css.map",
+    "main.9a69a1c8.js.map": "/CoEERSS_Site/static/js/main.9a69a1c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.049967eb.css",
-    "static/js/main.d86f9b20.js"
+    "static/css/main.8dd85c5c.css",
+    "static/js/main.9a69a1c8.js"
   ]
 }
