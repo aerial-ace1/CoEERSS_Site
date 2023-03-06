@@ -36,8 +36,7 @@ export const InTheNewsCar = () => {
 
   React.useEffect(() => {
     const intervalId = setInterval(() => {
-      setCount((prevCount) => prevCount);
-      // setCount((prevCount) => (prevCount + 1) % newsItems.length);
+      setCount((prevCount) => (prevCount + 1) % newsItems.length);
     }, 2000);
     return () => clearInterval(intervalId);
   }, []);

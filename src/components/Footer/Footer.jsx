@@ -41,7 +41,7 @@ export const Footer = () => (
           <h5 className="text-uppercase">Pages</h5>
           <ul className="list-unstyled">
             <li><a href="/about/erss">About</a></li>
-            <li><a href="/events/events">Events</a></li>
+            <li><a href="/events/hackathon">Hackathon</a></li>
             <li><a href="/gallery">Gallery</a></li>
             <li><a href="/conference/keynotelectures">Conference</a></li>
           </ul>

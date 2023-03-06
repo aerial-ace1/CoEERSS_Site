@@ -3,16 +3,17 @@ import { Route, useRouteMatch } from 'react-router-dom';
 import PageContainer from '../../components/PageContainer';
 // import { Lectures } from '../../components/Conference/Lectures';
 // import { Apply } from '../../components/Conference/Apply';
-import AnnouncedSoon from '../../components/AnnouncedSoon';
+// import AnnouncedSoon from '../../components/AnnouncedSoon';
 import { KeynoteSpeakers } from '../../components/KeynoteSpeakers';
 import { TutorialSpeakers } from '../../components/TutorialSpeakers';
+import { EventText } from '../../components/Events/EventText';
 
-const Filler = ({ title, text }) => (
-  <div>
-    <h1 className="mb-5">{title}</h1>
-    <AnnouncedSoon text={text} />
-  </div>
-);
+// const Filler = ({ title, text }) => (
+//   <div>
+//     <h1 className="mb-5">{title}</h1>
+//     <AnnouncedSoon text={text} />
+//   </div>
+// );
 
 const ConferencePage = () => {
   const { path, url } = useRouteMatch();
@@ -22,9 +23,13 @@ const ConferencePage = () => {
       to: `${url}/keynotelectures`
     },
     {
-      name: 'LECTURES',
-      to: `${url}/lectures`
+      name: 'CONFERENCE',
+      to: `${url}/conference`
     },
+    // {
+    //   name: 'LECTURES',
+    //   to: `${url}/lectures`
+    // },
     {
       name: 'TUTORIAL SPEAKERS',
       to: `${url}/tutorialspeakers`
@@ -37,15 +42,25 @@ const ConferencePage = () => {
       content: <KeynoteSpeakers />
     },
     {
+      name: 'CONFERENCE',
+      path: `${path}/conference`,
+      content: (
+        <>
+          <h1>CONFERENCE</h1>
+          <EventText />
+        </>
+      )
+    },
+    {
       name: 'KEYNOTE SPEAKERS',
       path: `${path}/keynotelectures`,
       content: <KeynoteSpeakers />
     },
-    {
-      name: 'LECTURES',
-      path: `${path}/lectures`,
-      content: <Filler title="LECTURES" text="Will be updated" />
-    },
+    // {
+    //   name: 'LECTURES',
+    //   path: `${path}/lectures`,
+    //   content: <Filler title="LECTURES" text="Will be updated" />
+    // },
     {
       name: 'TUTORIAL SPEAKERS',
       path: `${path}/tutorialspeakers`,
