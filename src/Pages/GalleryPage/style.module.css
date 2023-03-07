@@ -33,3 +33,9 @@
     column-count: 1;
   }
 }
+
+.galleryCarousel {
+  height: max(80%, 30rem);
+  width: max(100%, 40rem);
+  overflow: clip;
+}

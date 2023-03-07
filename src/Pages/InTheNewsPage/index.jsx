@@ -21,6 +21,14 @@ const newsItems = [
     image: './3.png',
     text: 'At the inauguration of the Centre of Excellence in Emergency Response Support System at the NITT, Tamil Nadu Police Department talked about how CoEERSS would integrate IoT, AI, and deep learning into CCTNS 2.0 version software for better crime control and the  ERSS-112 system for a quicker response time.',
     links: ['https://www.thehindu.com/news/cities/Tiruchirapalli/cctns-20-version-to-be-deployed-shortly-says-dgp/article66458230.ece?cx_testId=11&cx_testVariant=cx_1&cx_artPos=0&cx_experienceId=EXKWL3XAQS9E#cxrecs_s', 'https://www.dtnext.in/city/2023/02/02/dgp-opens-emergency-response-support-system-at-nit-t', 'https://inewstamil.com/Article/PsCPSEtZTKNBEzX1Uy5J']
+  }, {
+    image: './6.png',
+    text: '',
+    links: []
+  }, {
+    image: './5.png',
+    text: '',
+    links: []
   }
 ];
 const InTheNews = () => (
@@ -36,7 +44,7 @@ export const InTheNewsCar = () => {
 
   React.useEffect(() => {
     const intervalId = setInterval(() => {
-      setCount((prevCount) => (prevCount + 1) % newsItems.length);
+      setCount((prevCount) => (prevCount + 1) % 4);
     }, 2000);
     return () => clearInterval(intervalId);
   }, []);

@@ -26,10 +26,6 @@ const ConferencePage = () => {
       name: 'CONFERENCE',
       to: `${url}/conference`
     },
-    // {
-    //   name: 'LECTURES',
-    //   to: `${url}/lectures`
-    // },
     {
       name: 'TUTORIAL SPEAKERS',
       to: `${url}/tutorialspeakers`
@@ -56,11 +52,6 @@ const ConferencePage = () => {
       path: `${path}/keynotelectures`,
       content: <KeynoteSpeakers />
     },
-    // {
-    //   name: 'LECTURES',
-    //   path: `${path}/lectures`,
-    //   content: <Filler title="LECTURES" text="Will be updated" />
-    // },
     {
       name: 'TUTORIAL SPEAKERS',
       path: `${path}/tutorialspeakers`,

@@ -56,20 +56,17 @@ const TopNavbar = () => {
             <Nav.Link className={styles.colorWhite} onClick={() => history.push('/about/erss')}>
               ABOUT
             </Nav.Link>
-            <Nav.Link className={styles.colorWhite} onClick={() => history.push('/events/hackathon')}>
-              HACKATHON
-            </Nav.Link>
-            <Nav.Link className={styles.colorWhite} onClick={() => history.push('/conference/keynotelectures')}>
-              CONFERENCE
-            </Nav.Link>
-            <Nav.Link className={styles.colorWhite} onClick={() => history.push('/gallery')}>
-              GALLERY
-            </Nav.Link>
             <Nav.Link className={styles.colorWhite} onClick={() => history.push('/inthenews')}>
               IN THE NEWS
             </Nav.Link>
             <Nav.Link className={styles.colorWhite} onClick={() => history.push('/people/committee')}>
               PEOPLE
+            </Nav.Link>
+            <Nav.Link className={styles.colorWhite} onClick={() => history.push('/events/hackathon')}>
+              EVENTS
+            </Nav.Link>
+            <Nav.Link className={styles.colorWhite} onClick={() => history.push('/gallery')}>
+              GALLERY
             </Nav.Link>
             <Nav.Link className={styles.colorWhite} onClick={() => history.push('/contact')}>
               CONTACT

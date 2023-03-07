@@ -11,6 +11,7 @@ import { InTheNewsCar } from '../../Pages/InTheNewsPage';
 // import brz from './assets/brz.png';
 // import sil from './assets/sil.png';
 // import gld from './assets/gld.png';
+import land from './assets/1.jpg';
 
 const MainPage = () => (
   <div className="main-page">
@@ -38,11 +39,12 @@ const MainPage = () => (
       <Carousel.Item>
         <img
           className="car-img"
-          src="https://lh4.googleusercontent.com/hOe_L_XjgFBagMsJJJtPgKBCkkql5BMCaclLDcoGhbEloUBQgC9kROu4ebOuJETgqeLVO0HRp3m_orkvPaQvw9k9MKTgczSIbiIVXUrI1g-ghvMwbOpBMeqV1E7O1G9Chqs2xsvychRceK3Z3kiKRng"
+          src={land}
+          // "https://lh4.googleusercontent.com/hOe_L_XjgFBagMsJJJtPgKBCkkql5BMCaclLDcoGhbEloUBQgC9kROu4ebOuJETgqeLVO0HRp3m_orkvPaQvw9k9MKTgczSIbiIVXUrI1g-ghvMwbOpBMeqV1E7O1G9Chqs2xsvychRceK3Z3kiKRng"
           alt="Third slide"
         />
         <Carousel.Caption>
-          <h3>Mukambo and Cauvery flow, Trichy</h3>
+          <h3>Inauguration of CoEERSS</h3>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

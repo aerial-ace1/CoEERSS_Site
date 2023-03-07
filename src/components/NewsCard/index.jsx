@@ -15,7 +15,7 @@ importAll(require.context('./assets', false, /\.png/));
 
 const NewsCard = ({ newsItem }) => (
   <Card className={styles.cardCont} style={{ width: '25rem' }}>
-    <Card.Img variant="top" src={images[newsItem.image]} />
+    <Card.Img variant="top" style={{ maxHeight: '30rem', overflowY: 'clip' }} src={images[newsItem.image]} />
     <Card.Body>
       <Card.Text>
         {newsItem.text}
