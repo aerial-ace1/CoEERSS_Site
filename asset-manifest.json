@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CoEERSS_Site/static/css/main.c98f0314.css",
-    "main.js": "/CoEERSS_Site/static/js/main.f08e7f1b.js",
-    "static/media/1.png": "/CoEERSS_Site/static/media/1.ada9ae97cba31a0dd062.png",
+    "main.js": "/CoEERSS_Site/static/js/main.0ee82a99.js",
+    "static/media/1.png": "/CoEERSS_Site/static/media/1.524c9ff05223e0c46ab1.png",
     "static/media/2.png": "/CoEERSS_Site/static/media/2.7786ac0d098d7c8ec9fd.png",
     "static/media/3.png": "/CoEERSS_Site/static/media/3.7d07787329c8f452b894.png",
     "static/media/4.png": "/CoEERSS_Site/static/media/4.d3ad8137a45088004511.png",
@@ -15,9 +15,9 @@
     "static/media/IMG-20230223-WA0028.jpg": "/CoEERSS_Site/static/media/IMG-20230223-WA0028.192b9cbd1b3e3dc9a6a6.jpg",
     "static/media/img-1.jpg": "/CoEERSS_Site/static/media/img-1.b48cca5139e4093bbe16.jpg",
     "static/media/IMG-20230223-WA0026.jpg": "/CoEERSS_Site/static/media/IMG-20230223-WA0026.3a151308b555da3cc6cb.jpg",
+    "static/media/2.jpeg": "/CoEERSS_Site/static/media/2.c6c4d0e471edf679fe87.jpeg",
     "static/media/img-0.jpeg": "/CoEERSS_Site/static/media/img-0.3b827990e67f9b3cfb0a.jpeg",
     "static/media/nitt.png": "/CoEERSS_Site/static/media/nitt.8f5be3358b3aba633635.png",
-    "static/media/img.png": "/CoEERSS_Site/static/media/img.ffd3e6ef0350321011f0.png",
     "static/media/IMG-20230223-WA0017.jpg": "/CoEERSS_Site/static/media/IMG-20230223-WA0017.2bc6b14e6975e37f37e3.jpg",
     "static/media/IMG-20230223-WA0025.jpg": "/CoEERSS_Site/static/media/IMG-20230223-WA0025.166e0b00f82541e2970f.jpg",
     "static/media/IMG-20230223-WA0015.jpg": "/CoEERSS_Site/static/media/IMG-20230223-WA0015.d566daf253e9c66d1cd6.jpg",
@@ -29,6 +29,7 @@
     "static/media/IMG-20230223-WA0027.jpg": "/CoEERSS_Site/static/media/IMG-20230223-WA0027.f6998d92233f8d081963.jpg",
     "static/media/IMG-20230223-WA0024.jpg": "/CoEERSS_Site/static/media/IMG-20230223-WA0024.c766e277490c03ccc4d1.jpg",
     "static/media/IMG-20230223-WA0013.jpg": "/CoEERSS_Site/static/media/IMG-20230223-WA0013.1d4d3c3c3903a4896a6c.jpg",
+    "static/media/1.jpeg": "/CoEERSS_Site/static/media/1.9a6193fd41ed6d2c43b4.jpeg",
     "static/media/IMG-20230223-WA0016.jpg": "/CoEERSS_Site/static/media/IMG-20230223-WA0016.f748b8fcb2d3342c3498.jpg",
     "static/media/IMG-20230223-WA0012.jpg": "/CoEERSS_Site/static/media/IMG-20230223-WA0012.c55b22828b11831e1248.jpg",
     "static/media/IMG-20230223-WA0011.jpg": "/CoEERSS_Site/static/media/IMG-20230223-WA0011.1d8c7b8c634e3c920841.jpg",
@@ -43,10 +44,10 @@
     "static/media/image1.png": "/CoEERSS_Site/static/media/image1.32d21d4e1c8eee4977dc.png",
     "index.html": "/CoEERSS_Site/index.html",
     "main.c98f0314.css.map": "/CoEERSS_Site/static/css/main.c98f0314.css.map",
-    "main.f08e7f1b.js.map": "/CoEERSS_Site/static/js/main.f08e7f1b.js.map"
+    "main.0ee82a99.js.map": "/CoEERSS_Site/static/js/main.0ee82a99.js.map"
   },
   "entrypoints": [
     "static/css/main.c98f0314.css",
-    "static/js/main.f08e7f1b.js"
+    "static/js/main.0ee82a99.js"
   ]
 }
