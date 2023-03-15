@@ -1,6 +1,8 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
+import { Image } from 'react-bootstrap';
 import { Link45deg } from 'react-bootstrap-icons';
+import first from './assets/1.jpeg';
 
 export const EventText = () => (
   <div>
@@ -44,11 +46,20 @@ export const EventText = () => (
       Orthopaedics, Thanjavur Medical College, Mr Bala Sriraghavan, CEO and Founder,
       Datanetiix Solutions Inc., USA.
     </p>
-    <a href="https://iserdm2023.nitt.edu/" target="_blank" rel="noreferrer">
-      <Button variant="dark">
-        <Link45deg />
-        ISERDM-2023
-      </Button>
-    </a>
+    <div style={{
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      flexFlow: 'column wrap'
+    }}
+    >
+      <Image style={{ width: '80%', padding: '10px' }} src={first} />
+      <a href="https://iserdm2023.nitt.edu/" target="_blank" rel="noreferrer" style={{ margin: '1rem 0' }}>
+        <Button variant="dark">
+          <Link45deg />
+          ISERDM-2023
+        </Button>
+      </a>
+    </div>
   </div>
 );

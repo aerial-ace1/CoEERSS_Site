@@ -1,6 +1,9 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import { Link45deg } from 'react-bootstrap-icons';
+import { Image } from 'react-bootstrap';
+import first from './assets/1.jpeg';
+import second from './assets/2.jpeg';
 
 export const Hackathon = () => (
   <div>
@@ -15,6 +18,16 @@ export const Hackathon = () => (
       Prize money worth Rs 25000/- has been planned. The hackathon will be conducted completely
       in offline mode, on the premises of NIT-T.
     </p>
+    <div style={{
+      display: 'flex',
+      justifyContent: 'space-around',
+      flexFlow: 'row wrap'
+    }}
+    >
+      <Image style={{ width: '25rem', padding: '10px' }} src={first} />
+      <Image style={{ width: '25rem', padding: '10px' }} src={second} />
+    </div>
+
     <div style={{ display: 'flex', gap: '1rem' }}>
       <a href="https://nit-hackathon.datanetiix.com/" target="_blank" rel="noreferrer">
         <Button variant="dark">
